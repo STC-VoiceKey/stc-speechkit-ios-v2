@@ -1,0 +1,1 @@
+../../../SpeechproSpeechKit/SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Synthesize/STCTTSSynthesizeNetworkingManager.h

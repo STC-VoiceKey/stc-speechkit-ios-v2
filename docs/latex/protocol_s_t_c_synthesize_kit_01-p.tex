@@ -1,0 +1,122 @@
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p}{}\section{$<$S\+T\+C\+Synthesize\+Kit $>$ Protocol Reference}
+\label{protocol_s_t_c_synthesize_kit_01-p}\index{$<$\+S\+T\+C\+Synthesize\+Kit $>$@{$<$\+S\+T\+C\+Synthesize\+Kit $>$}}
+Inheritance diagram for $<$S\+T\+C\+Synthesize\+Kit $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{protocol_s_t_c_synthesize_kit_01-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_synthesize_kit_01-p_a1679a8853f228bf9799eaa8ed1a49c09}{obtain\+Languages\+With\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_synthesize_kit_01-p_a8c6e4b0dd69c33d0044135976941a706}{obtain\+Voices\+For\+Language\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_synthesize_kit_01-p_a2257422be5b0fbb23cf7375230f37b77}{synthesize\+Text\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_synthesize_kit_01-p_abcd4795f4fbd306d88e12a48d0b2c504}{synthesize\+Text\+:with\+Voice\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_synthesize_kit_01-p_a99ae6df6d921250b4bfe2c20e0dfbf97}{stream\+With\+Language\+:\+With\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_synthesize_kit_01-p_a979b7ce63513807b589cf3832a985aad}{stream\+With\+Voice\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_synthesize_kit_01-p_a19fc7385dd0948bc99b9cbe92470671b}{close\+Stream\+:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Method Documentation}
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p_a19fc7385dd0948bc99b9cbe92470671b}{}\label{protocol_s_t_c_synthesize_kit_01-p_a19fc7385dd0948bc99b9cbe92470671b} 
+\index{S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}!close\+Stream\+:@{close\+Stream\+:}}
+\index{close\+Stream\+:@{close\+Stream\+:}!S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{close\+Stream\+:()}{closeStream:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Synthesize\+Kit) close\+Stream\+: \begin{DoxyParamCaption}\item[{(Stream\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Closes stream 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p_a1679a8853f228bf9799eaa8ed1a49c09}{}\label{protocol_s_t_c_synthesize_kit_01-p_a1679a8853f228bf9799eaa8ed1a49c09} 
+\index{S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}!obtain\+Languages\+With\+Completion\+Handler\+:@{obtain\+Languages\+With\+Completion\+Handler\+:}}
+\index{obtain\+Languages\+With\+Completion\+Handler\+:@{obtain\+Languages\+With\+Completion\+Handler\+:}!S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{obtain\+Languages\+With\+Completion\+Handler\+:()}{obtainLanguagesWithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Synthesize\+Kit) obtain\+Languages\+With\+Completion\+Handler\+: \begin{DoxyParamCaption}\item[{(Language\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives list of preset languages 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p_a8c6e4b0dd69c33d0044135976941a706}{}\label{protocol_s_t_c_synthesize_kit_01-p_a8c6e4b0dd69c33d0044135976941a706} 
+\index{S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}!obtain\+Voices\+For\+Language\+:with\+Completion\+Handler\+:@{obtain\+Voices\+For\+Language\+:with\+Completion\+Handler\+:}}
+\index{obtain\+Voices\+For\+Language\+:with\+Completion\+Handler\+:@{obtain\+Voices\+For\+Language\+:with\+Completion\+Handler\+:}!S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{obtain\+Voices\+For\+Language\+:with\+Completion\+Handler\+:()}{obtainVoicesForLanguage:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Synthesize\+Kit) obtain\+Voices\+For\+Language\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{language }\item[{withCompletionHandler:(Voices\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives list of preset voices for specific language 
+\begin{DoxyParams}{Parameters}
+{\em language} & The specific language \\
+\hline
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p_a99ae6df6d921250b4bfe2c20e0dfbf97}{}\label{protocol_s_t_c_synthesize_kit_01-p_a99ae6df6d921250b4bfe2c20e0dfbf97} 
+\index{S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}!stream\+With\+Language\+:\+With\+Completion\+Handler\+:@{stream\+With\+Language\+:\+With\+Completion\+Handler\+:}}
+\index{stream\+With\+Language\+:\+With\+Completion\+Handler\+:@{stream\+With\+Language\+:\+With\+Completion\+Handler\+:}!S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{stream\+With\+Language\+:\+With\+Completion\+Handler\+:()}{streamWithLanguage:WithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Synthesize\+Kit) stream\+With\+Language\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{language }\item[{WithCompletionHandler:(Stream\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the stream url 
+\begin{DoxyParams}{Parameters}
+{\em language} & The synthesis language \\
+\hline
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p_a979b7ce63513807b589cf3832a985aad}{}\label{protocol_s_t_c_synthesize_kit_01-p_a979b7ce63513807b589cf3832a985aad} 
+\index{S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}!stream\+With\+Voice\+:with\+Completion\+Handler\+:@{stream\+With\+Voice\+:with\+Completion\+Handler\+:}}
+\index{stream\+With\+Voice\+:with\+Completion\+Handler\+:@{stream\+With\+Voice\+:with\+Completion\+Handler\+:}!S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{stream\+With\+Voice\+:with\+Completion\+Handler\+:()}{streamWithVoice:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Synthesize\+Kit) stream\+With\+Voice\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{voice }\item[{withCompletionHandler:(Stream\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the stream url 
+\begin{DoxyParams}{Parameters}
+{\em voice} & The voice for synthesis \\
+\hline
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p_a2257422be5b0fbb23cf7375230f37b77}{}\label{protocol_s_t_c_synthesize_kit_01-p_a2257422be5b0fbb23cf7375230f37b77} 
+\index{S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}!synthesize\+Text\+:with\+Completion\+Handler\+:@{synthesize\+Text\+:with\+Completion\+Handler\+:}}
+\index{synthesize\+Text\+:with\+Completion\+Handler\+:@{synthesize\+Text\+:with\+Completion\+Handler\+:}!S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{synthesize\+Text\+:with\+Completion\+Handler\+:()}{synthesizeText:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Synthesize\+Kit) synthesize\+Text\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{text }\item[{withCompletionHandler:(Synthesize\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the synthesis result 
+\begin{DoxyParams}{Parameters}
+{\em text} & The text for synthesis \\
+\hline
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_synthesize_kit_01-p_abcd4795f4fbd306d88e12a48d0b2c504}{}\label{protocol_s_t_c_synthesize_kit_01-p_abcd4795f4fbd306d88e12a48d0b2c504} 
+\index{S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}!synthesize\+Text\+:with\+Voice\+:with\+Completion\+Handler\+:@{synthesize\+Text\+:with\+Voice\+:with\+Completion\+Handler\+:}}
+\index{synthesize\+Text\+:with\+Voice\+:with\+Completion\+Handler\+:@{synthesize\+Text\+:with\+Voice\+:with\+Completion\+Handler\+:}!S\+T\+C\+Synthesize\+Kit -\/p@{S\+T\+C\+Synthesize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{synthesize\+Text\+:with\+Voice\+:with\+Completion\+Handler\+:()}{synthesizeText:withVoice:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Synthesize\+Kit) synthesize\+Text\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{text }\item[{withVoice:(N\+S\+String $\ast$)}]{voice }\item[{withCompletionHandler:(Synthesize\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the synthesis result 
+\begin{DoxyParams}{Parameters}
+{\em text} & The text for synthesis \\
+\hline
+{\em voice} & The voice for synthesis \\
+\hline
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this protocol was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+S\+T\+C\+Synthesize\+Kit.\+h\end{DoxyCompactItemize}

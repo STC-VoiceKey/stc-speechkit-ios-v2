@@ -1,0 +1,21 @@
+{
+  "name": "SpeechproSpeechKit",
+  "version": "0.0.1",
+  "summary": "Speech recognition, text-to-speech and diarization Framework",
+  "homepage": "https://cp.speechpro.com/home",
+  "license": "MIT",
+  "authors": {
+    "alexandrasoloshcheva": "soloshcheva@speechpro.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/STC-VoiceKey/stc-speechkit-ios.git",
+    "tag": "0.0.1",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "source_files": "SpeechproSpeechKit/**/*.{h,m,c}",
+  "public_header_files": "SpeechproSpeechKit/*.h"
+}

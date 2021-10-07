@@ -1,0 +1,234 @@
+\hypertarget{interface_s_t_c_networking_manager}{}\section{S\+T\+C\+Networking\+Manager Class Reference}
+\label{interface_s_t_c_networking_manager}\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+Inheritance diagram for S\+T\+C\+Networking\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.859230cm]{interface_s_t_c_networking_manager}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_networking_manager_aa440c5c6bc3dd49061dfaf9c250a6c66}{obtain\+With\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_networking_manager_a4b1b5cddaa078e5aa939c7a6cc08c3c9}{starting\+Request}
+\item 
+(N\+S\+String $\ast$) -\/ \hyperlink{interface_s_t_c_networking_manager_ac6682cc51af8bdad452f8af5bb1257d4}{request}
+\item 
+(N\+S\+String $\ast$) -\/ \hyperlink{interface_s_t_c_networking_manager_af79912da518a87b9999b0f72bfebb32c}{method}
+\item 
+(N\+S\+Dictionary $\ast$) -\/ \hyperlink{interface_s_t_c_networking_manager_ac5b20e2356d4fb18337fe7419f8acc3d}{body}
+\item 
+(N\+S\+String $\ast$) -\/ \hyperlink{interface_s_t_c_networking_manager_a5885762567f9197c67adda892b660b2d}{session\+Request}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_networking_manager_a0d41396419e85cc70d42ac278510d41f}{progress\+Request}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_networking_manager_a84f4d89ed72ec39054d9a4e4e797e7f2}{finalize\+Request}
+\item 
+(N\+S\+Error $\ast$) -\/ \hyperlink{interface_s_t_c_networking_manager_a53cd7cc498ad57ef65bbde70d7ed73b3}{error\+With\+Data\+:}
+\item 
+(N\+S\+Error $\ast$) -\/ \hyperlink{interface_s_t_c_networking_manager_aaabcac801d72fb8859284404965ec580}{check\+Error\+:with\+Response\+:with\+Error\+Data\+:}
+\item 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) -\/ \hyperlink{interface_s_t_c_networking_manager_a46b2c22ca530b473fe9b6e4a5cdb5d7f}{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}
+\item 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nullable) -\/ \hyperlink{interface_s_t_c_networking_manager_a37c2e90cf13e74182487be0f537a6321}{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}
+\item 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) -\/ \hyperlink{interface_s_t_c_networking_manager_a7cf3e2d4e1f5b8a1414c392b43ee63bd}{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:}
+\item 
+\hypertarget{interface_s_t_c_networking_manager_a3611a93c8a7d36d4fbbbeb4c70132150}{}\label{interface_s_t_c_networking_manager_a3611a93c8a7d36d4fbbbeb4c70132150} 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$) -\/ {\bfseries task\+Request\+With\+Type\+Request\+:with\+Body\+:for\+U\+R\+L\+String\+:completion\+Handler\+:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Completion\+Handler \hyperlink{interface_s_t_c_networking_manager_a81fe222cb5fce78231d142d1e5c351e1}{completion\+Handler}
+\item 
+N\+S\+String $\ast$ \hyperlink{interface_s_t_c_networking_manager_a883a3c7d4bb40ab69762c5f640fd1ec0}{session\+Id}
+\item 
+N\+S\+String $\ast$ \hyperlink{interface_s_t_c_networking_manager_a98ab6e40acba2ec836eaf44f96d41c74}{transaction\+Id}
+\item 
+N\+S\+Object $\ast$ \hyperlink{interface_s_t_c_networking_manager_a96a61eed2bada8b6f28246be241d4eb5}{result}
+\end{DoxyCompactItemize}
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_s_t_c_networking_manager_ac5b20e2356d4fb18337fe7419f8acc3d}{}\label{interface_s_t_c_networking_manager_ac5b20e2356d4fb18337fe7419f8acc3d} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!body@{body}}
+\index{body@{body}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{body()}{body()}}
+{\footnotesize\ttfamily -\/ (N\+S\+Dictionary $\ast$) body \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Returns H\+T\+TP request body(should be reload in child class) \hypertarget{interface_s_t_c_networking_manager_aaabcac801d72fb8859284404965ec580}{}\label{interface_s_t_c_networking_manager_aaabcac801d72fb8859284404965ec580} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!check\+Error\+:with\+Response\+:with\+Error\+Data\+:@{check\+Error\+:with\+Response\+:with\+Error\+Data\+:}}
+\index{check\+Error\+:with\+Response\+:with\+Error\+Data\+:@{check\+Error\+:with\+Response\+:with\+Error\+Data\+:}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{check\+Error\+:with\+Response\+:with\+Error\+Data\+:()}{checkError:withResponse:withErrorData:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+Error $\ast$) check\+Error\+: \begin{DoxyParamCaption}\item[{(N\+S\+Error $\ast$)}]{error }\item[{withResponse:(N\+S\+U\+R\+L\+Response $\ast$)}]{response }\item[{withErrorData:(N\+S\+Data $\ast$)}]{error\+Data }\end{DoxyParamCaption}}
+
+Returns the error or nil based on received parameters 
+\begin{DoxyParams}{Parameters}
+{\em error} & The error \\
+\hline
+{\em response} & The response \\
+\hline
+{\em error\+Data} & The error data \\
+\hline
+\end{DoxyParams}
+
+
+Provided by category \hyperlink{category_s_t_c_networking_manager_07_error_08_aaabcac801d72fb8859284404965ec580}{S\+T\+C\+Networking\+Manager(\+Error)}.
+
+\hypertarget{interface_s_t_c_networking_manager_a53cd7cc498ad57ef65bbde70d7ed73b3}{}\label{interface_s_t_c_networking_manager_a53cd7cc498ad57ef65bbde70d7ed73b3} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!error\+With\+Data\+:@{error\+With\+Data\+:}}
+\index{error\+With\+Data\+:@{error\+With\+Data\+:}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{error\+With\+Data\+:()}{errorWithData:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+Error $\ast$) error\+With\+Data\+: \begin{DoxyParamCaption}\item[{(N\+S\+Data $\ast$)}]{error\+Data }\end{DoxyParamCaption}}
+
+Returns the error with reason formed from error\+Data 
+
+Provided by category \hyperlink{category_s_t_c_networking_manager_07_error_08_a53cd7cc498ad57ef65bbde70d7ed73b3}{S\+T\+C\+Networking\+Manager(\+Error)}.
+
+\hypertarget{interface_s_t_c_networking_manager_a84f4d89ed72ec39054d9a4e4e797e7f2}{}\label{interface_s_t_c_networking_manager_a84f4d89ed72ec39054d9a4e4e797e7f2} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!finalize\+Request@{finalize\+Request}}
+\index{finalize\+Request@{finalize\+Request}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{finalize\+Request()}{finalizeRequest()}}
+{\footnotesize\ttfamily -\/ (void) finalize\+Request \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Start the finalize request (Closes session as rule) \hypertarget{interface_s_t_c_networking_manager_af79912da518a87b9999b0f72bfebb32c}{}\label{interface_s_t_c_networking_manager_af79912da518a87b9999b0f72bfebb32c} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!method@{method}}
+\index{method@{method}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{method()}{method()}}
+{\footnotesize\ttfamily -\/ (N\+S\+String $\ast$) method \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Returns H\+T\+TP request method(should be reload in child class) \hypertarget{interface_s_t_c_networking_manager_aa440c5c6bc3dd49061dfaf9c250a6c66}{}\label{interface_s_t_c_networking_manager_aa440c5c6bc3dd49061dfaf9c250a6c66} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!obtain\+With\+Completion\+Handler\+:@{obtain\+With\+Completion\+Handler\+:}}
+\index{obtain\+With\+Completion\+Handler\+:@{obtain\+With\+Completion\+Handler\+:}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{obtain\+With\+Completion\+Handler\+:()}{obtainWithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void) obtain\+With\+Completion\+Handler\+: \begin{DoxyParamCaption}\item[{(Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Obtains data with current networking request \hypertarget{interface_s_t_c_networking_manager_a0d41396419e85cc70d42ac278510d41f}{}\label{interface_s_t_c_networking_manager_a0d41396419e85cc70d42ac278510d41f} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!progress\+Request@{progress\+Request}}
+\index{progress\+Request@{progress\+Request}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{progress\+Request()}{progressRequest()}}
+{\footnotesize\ttfamily -\/ (void) progress\+Request \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Starts the current request \hypertarget{interface_s_t_c_networking_manager_ac6682cc51af8bdad452f8af5bb1257d4}{}\label{interface_s_t_c_networking_manager_ac6682cc51af8bdad452f8af5bb1257d4} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!request@{request}}
+\index{request@{request}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{request()}{request()}}
+{\footnotesize\ttfamily -\/ (N\+S\+String $\ast$) request \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Returns the current request url \hypertarget{interface_s_t_c_networking_manager_a5885762567f9197c67adda892b660b2d}{}\label{interface_s_t_c_networking_manager_a5885762567f9197c67adda892b660b2d} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!session\+Request@{session\+Request}}
+\index{session\+Request@{session\+Request}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{session\+Request()}{sessionRequest()}}
+{\footnotesize\ttfamily -\/ (N\+S\+String $\ast$) session\+Request \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Returns the session url \hypertarget{interface_s_t_c_networking_manager_a4b1b5cddaa078e5aa939c7a6cc08c3c9}{}\label{interface_s_t_c_networking_manager_a4b1b5cddaa078e5aa939c7a6cc08c3c9} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!starting\+Request@{starting\+Request}}
+\index{starting\+Request@{starting\+Request}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{starting\+Request()}{startingRequest()}}
+{\footnotesize\ttfamily -\/ (void) starting\+Request \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Starts prerequest \hypertarget{interface_s_t_c_networking_manager_a7cf3e2d4e1f5b8a1414c392b43ee63bd}{}\label{interface_s_t_c_networking_manager_a7cf3e2d4e1f5b8a1414c392b43ee63bd} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:@{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:}}
+\index{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:@{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:()}{taskDeleteRequestForURLString:completionHandler:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) task\+Delete\+Request\+For\+U\+R\+L\+String\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$\+\_\+\+Nonnull)}]{url\+String }\item[{completionHandler:(void($^\wedge$)(N\+S\+Data $\ast$\+\_\+\+\_\+nullable data, N\+S\+U\+R\+L\+Response $\ast$\+\_\+\+\_\+nullable response, N\+S\+Error $\ast$\+\_\+\+\_\+nullable error))}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Forms D\+E\+L\+E\+TE request
+
+
+\begin{DoxyParams}{Parameters}
+{\em url\+String} & The U\+RL for request \\
+\hline
+{\em completion\+Handler} & The block which is called when data is received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The request 
+\end{DoxyReturn}
+
+
+Provided by category \hyperlink{category_s_t_c_networking_manager_07_requests_08_a7cf3e2d4e1f5b8a1414c392b43ee63bd}{S\+T\+C\+Networking\+Manager(\+Requests)}.
+
+\hypertarget{interface_s_t_c_networking_manager_a46b2c22ca530b473fe9b6e4a5cdb5d7f}{}\label{interface_s_t_c_networking_manager_a46b2c22ca530b473fe9b6e4a5cdb5d7f} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}}
+\index{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:()}{taskGetRequestForURLString:withBody:completionHandler:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) task\+Get\+Request\+For\+U\+R\+L\+String\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$\+\_\+\+Nonnull)}]{url\+String }\item[{withBody:(N\+S\+Dictionary $\ast$\+\_\+\+\_\+nullable)}]{body }\item[{completionHandler:(void($^\wedge$)(N\+S\+Data $\ast$\+\_\+\+\_\+nullable data, N\+S\+U\+R\+L\+Response $\ast$\+\_\+\+\_\+nullable response, N\+S\+Error $\ast$\+\_\+\+\_\+nullable error))}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Forms G\+ET request
+
+
+\begin{DoxyParams}{Parameters}
+{\em url\+String} & The U\+RL for request \\
+\hline
+{\em body} & The body of the requests \\
+\hline
+{\em completion\+Handler} & The block which is called when data is received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The request 
+\end{DoxyReturn}
+
+
+Provided by category \hyperlink{category_s_t_c_networking_manager_07_requests_08_a46b2c22ca530b473fe9b6e4a5cdb5d7f}{S\+T\+C\+Networking\+Manager(\+Requests)}.
+
+\hypertarget{interface_s_t_c_networking_manager_a37c2e90cf13e74182487be0f537a6321}{}\label{interface_s_t_c_networking_manager_a37c2e90cf13e74182487be0f537a6321} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}}
+\index{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:()}{taskPostRequestForURLString:withBody:completionHandler:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nullable) task\+Post\+Request\+For\+U\+R\+L\+String\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$\+\_\+\+Nonnull)}]{url\+String }\item[{withBody:(N\+S\+Dictionary $\ast$\+\_\+\+Nullable)}]{body }\item[{completionHandler:(void($^\wedge$)(N\+S\+Data $\ast$\+\_\+\+\_\+nullable data, N\+S\+U\+R\+L\+Response $\ast$\+\_\+\+\_\+nullable response, N\+S\+Error $\ast$\+\_\+\+\_\+nullable error))}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Forms P\+O\+ST request
+
+
+\begin{DoxyParams}{Parameters}
+{\em url\+String} & The U\+RL for request \\
+\hline
+{\em body} & The body of the requests \\
+\hline
+{\em completion\+Handler} & The block which is called when data is received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The request 
+\end{DoxyReturn}
+
+
+Provided by category \hyperlink{category_s_t_c_networking_manager_07_requests_08_a37c2e90cf13e74182487be0f537a6321}{S\+T\+C\+Networking\+Manager(\+Requests)}.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_s_t_c_networking_manager_a81fe222cb5fce78231d142d1e5c351e1}{}\label{interface_s_t_c_networking_manager_a81fe222cb5fce78231d142d1e5c351e1} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!completion\+Handler@{completion\+Handler}}
+\index{completion\+Handler@{completion\+Handler}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{completion\+Handler}{completionHandler}}
+{\footnotesize\ttfamily -\/ (Completion\+Handler) completion\+Handler\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}
+
+Keeps the common completion handler \hypertarget{interface_s_t_c_networking_manager_a96a61eed2bada8b6f28246be241d4eb5}{}\label{interface_s_t_c_networking_manager_a96a61eed2bada8b6f28246be241d4eb5} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!result@{result}}
+\index{result@{result}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{result}{result}}
+{\footnotesize\ttfamily -\/ (N\+S\+Object$\ast$) result\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}
+
+The received result \hypertarget{interface_s_t_c_networking_manager_a883a3c7d4bb40ab69762c5f640fd1ec0}{}\label{interface_s_t_c_networking_manager_a883a3c7d4bb40ab69762c5f640fd1ec0} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!session\+Id@{session\+Id}}
+\index{session\+Id@{session\+Id}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{session\+Id}{sessionId}}
+{\footnotesize\ttfamily -\/ (N\+S\+String$\ast$) session\+Id\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}
+
+The current session identifier \hypertarget{interface_s_t_c_networking_manager_a98ab6e40acba2ec836eaf44f96d41c74}{}\label{interface_s_t_c_networking_manager_a98ab6e40acba2ec836eaf44f96d41c74} 
+\index{S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}!transaction\+Id@{transaction\+Id}}
+\index{transaction\+Id@{transaction\+Id}!S\+T\+C\+Networking\+Manager@{S\+T\+C\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{transaction\+Id}{transactionId}}
+{\footnotesize\ttfamily -\/ (N\+S\+String$\ast$) transaction\+Id\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}
+
+The current transaction identifier(if exists) 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Common/\+Networking/S\+T\+C\+Networking\+Manager.\+h\item 
+Common/\+Networking/S\+T\+C\+Networking\+Manager.\+m\end{DoxyCompactItemize}

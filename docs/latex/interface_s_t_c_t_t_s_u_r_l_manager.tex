@@ -1,0 +1,138 @@
+\hypertarget{interface_s_t_c_t_t_s_u_r_l_manager}{}\section{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager Class Reference}
+\label{interface_s_t_c_t_t_s_u_r_l_manager}\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+
+
+{\ttfamily \#import $<$S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager.\+h$>$}
+
+Inheritance diagram for S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_s_t_c_t_t_s_u_r_l_manager}
+\end{center}
+\end{figure}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_a35109e921ad45728ec11306001c520e8}{tts\+Api\+Url}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_ad7252dc739035543112f9aa103f8246e}{tts\+Start\+Session}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_ac3165e245d749f97fce2fe5f4bca3b77}{tts\+Close\+Session}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_ac991b76d587aff41952f35f4d5a701a3}{tts\+Obtain\+Languages}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_a11a3d86de1b21ab5d4697994021b1ac5}{tts\+Voice\+For\+Language\+:}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_a6fa3054433c0e2b4d3c5d2e788dcd018}{tts\+Synthesize}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_a9beb9bd59e7012c1e839cbe752d3304f}{tts\+Synthesize\+Sessionless}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_a334b1d5bf33e254331ed23db43f4a4a1}{tts\+Start\+Stream}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_t_t_s_u_r_l_manager_a81ae15f31b07c8e2d63cedf2ebfb6f4c}{tts\+Close\+Stream}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides the transport service urls for T\+TS A\+PI. A\+PI help \begin{DoxySeeAlso}{See also}
+\href{https://vkplatform.speechpro.com/vktts/help}{\tt https\+://vkplatform.\+speechpro.\+com/vktts/help} 
+\end{DoxySeeAlso}
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_a35109e921ad45728ec11306001c520e8}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_a35109e921ad45728ec11306001c520e8} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Api\+Url@{tts\+Api\+Url}}
+\index{tts\+Api\+Url@{tts\+Api\+Url}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Api\+Url()}{ttsApiUrl()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Api\+Url \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The main T\+TS A\+PI url 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_ac3165e245d749f97fce2fe5f4bca3b77}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_ac3165e245d749f97fce2fe5f4bca3b77} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Close\+Session@{tts\+Close\+Session}}
+\index{tts\+Close\+Session@{tts\+Close\+Session}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Close\+Session()}{ttsCloseSession()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Close\+Session \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for the closing server session. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/session}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_a81ae15f31b07c8e2d63cedf2ebfb6f4c}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_a81ae15f31b07c8e2d63cedf2ebfb6f4c} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Close\+Stream@{tts\+Close\+Stream}}
+\index{tts\+Close\+Stream@{tts\+Close\+Stream}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Close\+Stream()}{ttsCloseStream()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Close\+Stream \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for closing stream session. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/synthesize/stream}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_ac991b76d587aff41952f35f4d5a701a3}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_ac991b76d587aff41952f35f4d5a701a3} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Obtain\+Languages@{tts\+Obtain\+Languages}}
+\index{tts\+Obtain\+Languages@{tts\+Obtain\+Languages}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Obtain\+Languages()}{ttsObtainLanguages()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Obtain\+Languages \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for the obtaining a list of supported languages. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/languages}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_ad7252dc739035543112f9aa103f8246e}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_ad7252dc739035543112f9aa103f8246e} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Start\+Session@{tts\+Start\+Session}}
+\index{tts\+Start\+Session@{tts\+Start\+Session}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Start\+Session()}{ttsStartSession()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Start\+Session \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for the starting server session. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/session}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_a334b1d5bf33e254331ed23db43f4a4a1}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_a334b1d5bf33e254331ed23db43f4a4a1} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Start\+Stream@{tts\+Start\+Stream}}
+\index{tts\+Start\+Stream@{tts\+Start\+Stream}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Start\+Stream()}{ttsStartStream()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Start\+Stream \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for starting stream session. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/synthesize/stream}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_a6fa3054433c0e2b4d3c5d2e788dcd018}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_a6fa3054433c0e2b4d3c5d2e788dcd018} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Synthesize@{tts\+Synthesize}}
+\index{tts\+Synthesize@{tts\+Synthesize}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Synthesize()}{ttsSynthesize()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Synthesize \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for synthesizing sound from text. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/synthesize}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_a9beb9bd59e7012c1e839cbe752d3304f}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_a9beb9bd59e7012c1e839cbe752d3304f} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Synthesize\+Sessionless@{tts\+Synthesize\+Sessionless}}
+\index{tts\+Synthesize\+Sessionless@{tts\+Synthesize\+Sessionless}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Synthesize\+Sessionless()}{ttsSynthesizeSessionless()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Synthesize\+Sessionless \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for synthesizing sound from text without server session. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/synthesize/sessionless}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_t_t_s_u_r_l_manager_a11a3d86de1b21ab5d4697994021b1ac5}{}\label{interface_s_t_c_t_t_s_u_r_l_manager_a11a3d86de1b21ab5d4697994021b1ac5} 
+\index{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}!tts\+Voice\+For\+Language\+:@{tts\+Voice\+For\+Language\+:}}
+\index{tts\+Voice\+For\+Language\+:@{tts\+Voice\+For\+Language\+:}!S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager@{S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{tts\+Voice\+For\+Language\+:()}{ttsVoiceForLanguage:()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) tts\+Voice\+For\+Language\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{language }\end{DoxyParamCaption}}
+
+The T\+TS A\+PI url for the obtaining a list of existed voices for language. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/languages/\{language\}/voices}
+\end{DoxyCode}
+ 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Synthesize\+Kit/\+Networking/\+Base/S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager.\+h\item 
+Synthesize\+Kit/\+Networking/\+Base/S\+T\+C\+T\+T\+S\+U\+R\+L\+Manager.\+m\end{DoxyCompactItemize}

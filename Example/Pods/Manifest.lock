@@ -1,0 +1,21 @@
+PODS:
+  - SpeechproSpeechKit (0.0.1)
+
+DEPENDENCIES:
+  - SpeechproSpeechKit (from `https://github.com/STC-VoiceKey/stc-speechkit-ios.git`)
+
+EXTERNAL SOURCES:
+  SpeechproSpeechKit:
+    :git: https://github.com/STC-VoiceKey/stc-speechkit-ios.git
+
+CHECKOUT OPTIONS:
+  SpeechproSpeechKit:
+    :commit: 08d936f2835d92684b8753a90f1c735e76bab364
+    :git: https://github.com/STC-VoiceKey/stc-speechkit-ios.git
+
+SPEC CHECKSUMS:
+  SpeechproSpeechKit: ecbac3df01f3e7f7b5f59e698fd478aff59adff6
+
+PODFILE CHECKSUM: 521f8847d2e4302dbe7db2d1de1be94140b2195a
+
+COCOAPODS: 1.9.3

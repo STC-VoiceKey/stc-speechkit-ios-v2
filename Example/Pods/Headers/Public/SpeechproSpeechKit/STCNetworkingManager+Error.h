@@ -1,0 +1,1 @@
+../../../SpeechproSpeechKit/SpeechproSpeechKit/SpeechproSpeechKit/Common/Networking/Category/STCNetworkingManager+Error.h

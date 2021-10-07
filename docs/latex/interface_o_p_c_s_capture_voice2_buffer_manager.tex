@@ -1,0 +1,91 @@
+\hypertarget{interface_o_p_c_s_capture_voice2_buffer_manager}{}\section{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager Class Reference}
+\label{interface_o_p_c_s_capture_voice2_buffer_manager}\index{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}}
+
+
+{\ttfamily \#import $<$O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager.\+h$>$}
+
+Inheritance diagram for O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_o_p_c_s_capture_voice2_buffer_manager}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_o_p_c_s_capture_voice2_buffer_manager_ae6ccaffcb6da3c9abe3818cbf1219161}{init\+With\+Sample\+Rate\+:}
+\item 
+(id) -\/ \hyperlink{interface_o_p_c_s_capture_voice2_buffer_manager_a048d81d787f96d5409c23a09fc8239ce}{init\+With\+Sample\+Rate\+:with\+Mode\+:}
+\item 
+(void) -\/ \hyperlink{interface_o_p_c_s_capture_voice2_buffer_manager_a6568ab939086992e738fa6fc9c246aad}{record}
+\item 
+(void) -\/ \hyperlink{interface_o_p_c_s_capture_voice2_buffer_manager_a128ff30057dac0daf502f6d188a325b6}{stop}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Load\+Data\+Block \hyperlink{interface_o_p_c_s_capture_voice2_buffer_manager_a066b33fce715f27ea53a4c2f508e4457}{load\+Data\+Block}
+\item 
+B\+O\+OL \hyperlink{interface_o_p_c_s_capture_voice2_buffer_manager_a5e9fbf99d3c104971586ddefe48bbb56}{is\+Recording}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides the voice resource. Writes the voice data into a buffer. 
+
+\subsection{Method Documentation}
+\hypertarget{interface_o_p_c_s_capture_voice2_buffer_manager_ae6ccaffcb6da3c9abe3818cbf1219161}{}\label{interface_o_p_c_s_capture_voice2_buffer_manager_ae6ccaffcb6da3c9abe3818cbf1219161} 
+\index{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}!init\+With\+Sample\+Rate\+:@{init\+With\+Sample\+Rate\+:}}
+\index{init\+With\+Sample\+Rate\+:@{init\+With\+Sample\+Rate\+:}!O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}}
+\subsubsection{\texorpdfstring{init\+With\+Sample\+Rate\+:()}{initWithSampleRate:()}}
+{\footnotesize\ttfamily -\/ (id) init\+With\+Sample\+Rate\+: \begin{DoxyParamCaption}\item[{(N\+S\+U\+Integer)}]{sample\+Rate }\end{DoxyParamCaption}}
+
+Creates the new manager with sample rate 
+\begin{DoxyParams}{Parameters}
+{\em sample\+Rate} & The sample rate \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_o_p_c_s_capture_voice2_buffer_manager_a048d81d787f96d5409c23a09fc8239ce}{}\label{interface_o_p_c_s_capture_voice2_buffer_manager_a048d81d787f96d5409c23a09fc8239ce} 
+\index{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}!init\+With\+Sample\+Rate\+:with\+Mode\+:@{init\+With\+Sample\+Rate\+:with\+Mode\+:}}
+\index{init\+With\+Sample\+Rate\+:with\+Mode\+:@{init\+With\+Sample\+Rate\+:with\+Mode\+:}!O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}}
+\subsubsection{\texorpdfstring{init\+With\+Sample\+Rate\+:with\+Mode\+:()}{initWithSampleRate:withMode:()}}
+{\footnotesize\ttfamily -\/ (id) \hyperlink{interface_o_p_c_s_capture_voice2_buffer_manager_ae6ccaffcb6da3c9abe3818cbf1219161}{init\+With\+Sample\+Rate\+:} \begin{DoxyParamCaption}\item[{(N\+S\+U\+Integer)}]{sample\+Rate }\item[{withMode:(O\+P\+C\+S\+Capture\+Voice\+Mode)}]{mode }\end{DoxyParamCaption}}
+
+Creates the new manager with the sample rate and voice capture mode 
+\begin{DoxyParams}{Parameters}
+{\em sample\+Rate} & The sample rate \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_o_p_c_s_capture_voice2_buffer_manager_a6568ab939086992e738fa6fc9c246aad}{}\label{interface_o_p_c_s_capture_voice2_buffer_manager_a6568ab939086992e738fa6fc9c246aad} 
+\index{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}!record@{record}}
+\index{record@{record}!O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}}
+\subsubsection{\texorpdfstring{record()}{record()}}
+{\footnotesize\ttfamily -\/ (void) record \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Starts recording \hypertarget{interface_o_p_c_s_capture_voice2_buffer_manager_a128ff30057dac0daf502f6d188a325b6}{}\label{interface_o_p_c_s_capture_voice2_buffer_manager_a128ff30057dac0daf502f6d188a325b6} 
+\index{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}!stop@{stop}}
+\index{stop@{stop}!O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}}
+\subsubsection{\texorpdfstring{stop()}{stop()}}
+{\footnotesize\ttfamily -\/ (void) stop \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Stops recording 
+
+\subsection{Property Documentation}
+\hypertarget{interface_o_p_c_s_capture_voice2_buffer_manager_a5e9fbf99d3c104971586ddefe48bbb56}{}\label{interface_o_p_c_s_capture_voice2_buffer_manager_a5e9fbf99d3c104971586ddefe48bbb56} 
+\index{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}!is\+Recording@{is\+Recording}}
+\index{is\+Recording@{is\+Recording}!O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}}
+\subsubsection{\texorpdfstring{is\+Recording}{isRecording}}
+{\footnotesize\ttfamily -\/ (B\+O\+OL) is\+Recording\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}
+
+Shows the recording in progress \hypertarget{interface_o_p_c_s_capture_voice2_buffer_manager_a066b33fce715f27ea53a4c2f508e4457}{}\label{interface_o_p_c_s_capture_voice2_buffer_manager_a066b33fce715f27ea53a4c2f508e4457} 
+\index{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}!load\+Data\+Block@{load\+Data\+Block}}
+\index{load\+Data\+Block@{load\+Data\+Block}!O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager@{O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager}}
+\subsubsection{\texorpdfstring{load\+Data\+Block}{loadDataBlock}}
+{\footnotesize\ttfamily -\/ (Load\+Data\+Block) load\+Data\+Block\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [copy]}}
+
+The block called when data recieved 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Common/\+Voice\+Capture/O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager.\+h\item 
+Common/\+Voice\+Capture/O\+P\+C\+S\+Capture\+Voice2\+Buffer\+Manager.\+m\end{DoxyCompactItemize}

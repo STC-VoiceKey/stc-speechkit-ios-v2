@@ -1,0 +1,165 @@
+\hypertarget{interface_s_t_c_web_socket}{}\section{S\+T\+C\+Web\+Socket Class Reference}
+\label{interface_s_t_c_web_socket}\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+Inheritance diagram for S\+T\+C\+Web\+Socket\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_s_t_c_web_socket}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(nonnull instancetype) -\/ \hyperlink{interface_s_t_c_web_socket_a748e5be92eae2e05f70f26756b8d7e64}{init\+With\+U\+R\+L\+:protocols\+:}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_web_socket_a19172c26477af8b2f31e00d6ad65786c}{connect}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_web_socket_a6001ae9ed7f1758b92bf8d85bbd42fe5}{disconnect}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_web_socket_aa01158bb007d83492e3b6854d873a79a}{write\+Data\+:}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_web_socket_ade901b3fd9c09fddfb92dcb0cd8803fb}{write\+String\+:}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_web_socket_aa9649b3dcf83928d0cd204e11d798fd9}{write\+Ping\+:}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_web_socket_a23fa67b7bee39fb6570f8d19fb2c38a2}{add\+Header\+:for\+Key\+:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_s_t_c_web_socket_af0cd2804dd85170e4894f947a8fb452f}{}\label{interface_s_t_c_web_socket_af0cd2804dd85170e4894f947a8fb452f} 
+N\+S\+U\+RL $\ast$ {\bfseries url}
+\item 
+B\+O\+OL \hyperlink{interface_s_t_c_web_socket_a141075afd2a09ce60a8271f5d59860d8}{is\+Connected}
+\item 
+dispatch\+\_\+queue\+\_\+t \hyperlink{interface_s_t_c_web_socket_a66f1cc34b3be37883c97541270257bf2}{queue}
+\item 
+void($^\wedge$ \hyperlink{interface_s_t_c_web_socket_aec098d58709743122bd14d1b815f20cf}{on\+Connect} )(void)
+\item 
+void($^\wedge$ \hyperlink{interface_s_t_c_web_socket_af4387124567e05ec49d18a65c9079102}{on\+Disconnect} )(N\+S\+Error $\ast$\+\_\+\+Nullable)
+\item 
+void($^\wedge$ \hyperlink{interface_s_t_c_web_socket_af753eb23ff33a248c017d6a78c7756f6}{on\+Data} )(N\+S\+Data $\ast$\+\_\+\+Nullable)
+\item 
+void($^\wedge$ \hyperlink{interface_s_t_c_web_socket_afb945c824c6eba5a7e7bbc111366d076}{on\+Text} )(N\+S\+String $\ast$\+\_\+\+Nullable)
+\end{DoxyCompactItemize}
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_s_t_c_web_socket_a23fa67b7bee39fb6570f8d19fb2c38a2}{}\label{interface_s_t_c_web_socket_a23fa67b7bee39fb6570f8d19fb2c38a2} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!add\+Header\+:for\+Key\+:@{add\+Header\+:for\+Key\+:}}
+\index{add\+Header\+:for\+Key\+:@{add\+Header\+:for\+Key\+:}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{add\+Header\+:for\+Key\+:()}{addHeader:forKey:()}}
+{\footnotesize\ttfamily -\/ (void) add\+Header\+: \begin{DoxyParamCaption}\item[{(nonnull N\+S\+String $\ast$)}]{value }\item[{forKey:(nonnull N\+S\+String $\ast$)}]{key }\end{DoxyParamCaption}}
+
+Adds a header to send along on the the H\+T\+TP connect. 
+\begin{DoxyParams}{Parameters}
+{\em value} & The string \\
+\hline
+{\em key} & The H\+T\+TP key name to send \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_s_t_c_web_socket_a19172c26477af8b2f31e00d6ad65786c}{}\label{interface_s_t_c_web_socket_a19172c26477af8b2f31e00d6ad65786c} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!connect@{connect}}
+\index{connect@{connect}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{connect()}{connect()}}
+{\footnotesize\ttfamily -\/ (void) connect \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Connects to the host. \hypertarget{interface_s_t_c_web_socket_a6001ae9ed7f1758b92bf8d85bbd42fe5}{}\label{interface_s_t_c_web_socket_a6001ae9ed7f1758b92bf8d85bbd42fe5} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{disconnect()}{disconnect()}}
+{\footnotesize\ttfamily -\/ (void) disconnect \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+Disconnects to the host. This sends the close Connection opcode to terminate cleanly. \hypertarget{interface_s_t_c_web_socket_a748e5be92eae2e05f70f26756b8d7e64}{}\label{interface_s_t_c_web_socket_a748e5be92eae2e05f70f26756b8d7e64} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!init\+With\+U\+R\+L\+:protocols\+:@{init\+With\+U\+R\+L\+:protocols\+:}}
+\index{init\+With\+U\+R\+L\+:protocols\+:@{init\+With\+U\+R\+L\+:protocols\+:}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{init\+With\+U\+R\+L\+:protocols\+:()}{initWithURL:protocols:()}}
+{\footnotesize\ttfamily -\/ (nonnull instancetype) init\+With\+U\+R\+L\+: \begin{DoxyParamCaption}\item[{(nonnull N\+S\+U\+RL $\ast$)}]{url }\item[{protocols:(nullable N\+S\+Array $\ast$)}]{protocols }\end{DoxyParamCaption}}
+
+Creates the new websocket. 
+\begin{DoxyParams}{Parameters}
+{\em url} & The connecting host. \\
+\hline
+{\em protocols} & The supported websocket protocols (e.\+g. chat,superchat). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The newly initalized websocket. 
+\end{DoxyReturn}
+\hypertarget{interface_s_t_c_web_socket_aa01158bb007d83492e3b6854d873a79a}{}\label{interface_s_t_c_web_socket_aa01158bb007d83492e3b6854d873a79a} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!write\+Data\+:@{write\+Data\+:}}
+\index{write\+Data\+:@{write\+Data\+:}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{write\+Data\+:()}{writeData:()}}
+{\footnotesize\ttfamily -\/ (void) write\+Data\+: \begin{DoxyParamCaption}\item[{(nonnull N\+S\+Data $\ast$)}]{data }\end{DoxyParamCaption}}
+
+Writes binary based data to the socket. 
+\begin{DoxyParams}{Parameters}
+{\em data} & The binary data. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_s_t_c_web_socket_aa9649b3dcf83928d0cd204e11d798fd9}{}\label{interface_s_t_c_web_socket_aa9649b3dcf83928d0cd204e11d798fd9} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!write\+Ping\+:@{write\+Ping\+:}}
+\index{write\+Ping\+:@{write\+Ping\+:}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{write\+Ping\+:()}{writePing:()}}
+{\footnotesize\ttfamily -\/ (void) write\+Ping\+: \begin{DoxyParamCaption}\item[{(nonnull N\+S\+Data $\ast$)}]{data }\end{DoxyParamCaption}}
+
+Writes ping to the socket. 
+\begin{DoxyParams}{Parameters}
+{\em data} & The binary data. \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_s_t_c_web_socket_ade901b3fd9c09fddfb92dcb0cd8803fb}{}\label{interface_s_t_c_web_socket_ade901b3fd9c09fddfb92dcb0cd8803fb} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!write\+String\+:@{write\+String\+:}}
+\index{write\+String\+:@{write\+String\+:}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{write\+String\+:()}{writeString:()}}
+{\footnotesize\ttfamily -\/ (void) write\+String\+: \begin{DoxyParamCaption}\item[{(nonnull N\+S\+String $\ast$)}]{string }\end{DoxyParamCaption}}
+
+Writes text based data to the socket. 
+\begin{DoxyParams}{Parameters}
+{\em string} & The string. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_s_t_c_web_socket_a141075afd2a09ce60a8271f5d59860d8}{}\label{interface_s_t_c_web_socket_a141075afd2a09ce60a8271f5d59860d8} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!is\+Connected@{is\+Connected}}
+\index{is\+Connected@{is\+Connected}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{is\+Connected}{isConnected}}
+{\footnotesize\ttfamily -\/ (B\+O\+OL) is\+Connected\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}
+
+Returns if the socket is conneted or not. \hypertarget{interface_s_t_c_web_socket_aec098d58709743122bd14d1b815f20cf}{}\label{interface_s_t_c_web_socket_aec098d58709743122bd14d1b815f20cf} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!on\+Connect@{on\+Connect}}
+\index{on\+Connect@{on\+Connect}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{on\+Connect}{onConnect}}
+{\footnotesize\ttfamily -\/ (void($^\wedge$ on\+Connect) (void))\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}
+
+Block property to use on connect. \hypertarget{interface_s_t_c_web_socket_af753eb23ff33a248c017d6a78c7756f6}{}\label{interface_s_t_c_web_socket_af753eb23ff33a248c017d6a78c7756f6} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!on\+Data@{on\+Data}}
+\index{on\+Data@{on\+Data}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{on\+Data}{onData}}
+{\footnotesize\ttfamily -\/ (void($^\wedge$ on\+Data) (N\+S\+Data $\ast$\+\_\+\+Nullable))\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}
+
+Block property to use on receiving data. \hypertarget{interface_s_t_c_web_socket_af4387124567e05ec49d18a65c9079102}{}\label{interface_s_t_c_web_socket_af4387124567e05ec49d18a65c9079102} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!on\+Disconnect@{on\+Disconnect}}
+\index{on\+Disconnect@{on\+Disconnect}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{on\+Disconnect}{onDisconnect}}
+{\footnotesize\ttfamily -\/ (void($^\wedge$ on\+Disconnect) (N\+S\+Error $\ast$\+\_\+\+Nullable))\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}
+
+Block property to use on disconnect. \hypertarget{interface_s_t_c_web_socket_afb945c824c6eba5a7e7bbc111366d076}{}\label{interface_s_t_c_web_socket_afb945c824c6eba5a7e7bbc111366d076} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!on\+Text@{on\+Text}}
+\index{on\+Text@{on\+Text}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{on\+Text}{onText}}
+{\footnotesize\ttfamily -\/ (void($^\wedge$ on\+Text) (N\+S\+String $\ast$\+\_\+\+Nullable))\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}
+
+Block property to use on receiving text. \hypertarget{interface_s_t_c_web_socket_a66f1cc34b3be37883c97541270257bf2}{}\label{interface_s_t_c_web_socket_a66f1cc34b3be37883c97541270257bf2} 
+\index{S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}!queue@{queue}}
+\index{queue@{queue}!S\+T\+C\+Web\+Socket@{S\+T\+C\+Web\+Socket}}
+\subsubsection{\texorpdfstring{queue}{queue}}
+{\footnotesize\ttfamily -\/ (dispatch\+\_\+queue\+\_\+t) queue\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}
+
+Sets custom queue. Default setting is dispatch\+\_\+get\+\_\+main\+\_\+queue. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Common/\+Sockets/S\+T\+C\+Web\+Socket.\+h\item 
+Common/\+Sockets/S\+T\+C\+Web\+Socket.\+m\end{DoxyCompactItemize}

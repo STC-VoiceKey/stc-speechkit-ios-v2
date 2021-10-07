@@ -1,0 +1,68 @@
+\hypertarget{interface_s_t_c_audio_player}{}\section{S\+T\+C\+Audio\+Player Class Reference}
+\label{interface_s_t_c_audio_player}\index{S\+T\+C\+Audio\+Player@{S\+T\+C\+Audio\+Player}}
+Inheritance diagram for S\+T\+C\+Audio\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_s_t_c_audio_player}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_s_t_c_audio_player_ad17114a67589aa0826ddf8e75c867698}{}\label{interface_s_t_c_audio_player_ad17114a67589aa0826ddf8e75c867698} 
+(id) -\/ {\bfseries init}
+\item 
+\hypertarget{interface_s_t_c_audio_player_afe794dfabbc6a290078178cdb68f10b6}{}\label{interface_s_t_c_audio_player_afe794dfabbc6a290078178cdb68f10b6} 
+(id) -\/ {\bfseries init\+With\+Sample\+Rate\+:}
+\item 
+\hypertarget{interface_s_t_c_audio_player_a0abca23d0250d4d82a47dbf83146aa6a}{}\label{interface_s_t_c_audio_player_a0abca23d0250d4d82a47dbf83146aa6a} 
+(void) -\/ {\bfseries start\+Play\+With\+Buffer\+Byte\+Size\+:}
+\item 
+\hypertarget{interface_s_t_c_audio_player_addcde4753a5af3f4fef932473a2fa010}{}\label{interface_s_t_c_audio_player_addcde4753a5af3f4fef932473a2fa010} 
+(void) -\/ {\bfseries stop\+Play}
+\item 
+\hypertarget{interface_s_t_c_audio_player_a6d9583c2d65fd7cf1f4d637f4868683c}{}\label{interface_s_t_c_audio_player_a6d9583c2d65fd7cf1f4d637f4868683c} 
+(void) -\/ {\bfseries put\+Audio\+Data\+:}
+\item 
+\hypertarget{interface_s_t_c_audio_player_a11c739543195f43073ef628d637b15d4}{}\label{interface_s_t_c_audio_player_a11c739543195f43073ef628d637b15d4} 
+(void) -\/ {\bfseries put\+Audio\+Data\+:with\+Size\+:}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_s_t_c_audio_player_aea51e1434e5c499eaee55787949260a4}{}\label{interface_s_t_c_audio_player_aea51e1434e5c499eaee55787949260a4} 
+Boolean {\bfseries is\+Running}
+\item 
+\hypertarget{interface_s_t_c_audio_player_ade2dc02adba6b94aaa8556281b20e055}{}\label{interface_s_t_c_audio_player_ade2dc02adba6b94aaa8556281b20e055} 
+Boolean {\bfseries is\+Initialized}
+\item 
+\hypertarget{interface_s_t_c_audio_player_aa96edc84ac3bd01a9683efd034d5312f}{}\label{interface_s_t_c_audio_player_aa96edc84ac3bd01a9683efd034d5312f} 
+int {\bfseries buffer\+Byte\+Size}
+\item 
+\hypertarget{interface_s_t_c_audio_player_a45d9b02a87375134d072e510e4bcedad}{}\label{interface_s_t_c_audio_player_a45d9b02a87375134d072e510e4bcedad} 
+int {\bfseries pip\+\_\+fd} \mbox{[}2\mbox{]}
+\item 
+\hypertarget{interface_s_t_c_audio_player_a4de29eb13cd48c2533e289e3fb64187b}{}\label{interface_s_t_c_audio_player_a4de29eb13cd48c2533e289e3fb64187b} 
+U\+Int32 {\bfseries num\+Packets\+To\+Read}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_s_t_c_audio_player_ae4a01a5a58784dad7c318171d2627f8e}{}\label{interface_s_t_c_audio_player_ae4a01a5a58784dad7c318171d2627f8e} 
+Audio\+Queue\+Ref {\bfseries queue}
+\item 
+\hypertarget{interface_s_t_c_audio_player_aee78cfad9c7107c7088204a14940ec18}{}\label{interface_s_t_c_audio_player_aee78cfad9c7107c7088204a14940ec18} 
+Audio\+Queue\+Buffer\+Ref {\bfseries m\+Buffers} \mbox{[}k\+Number\+Buffers\mbox{]}
+\item 
+\hypertarget{interface_s_t_c_audio_player_afcd717630ef5f7bd48da739d695e30c8}{}\label{interface_s_t_c_audio_player_afcd717630ef5f7bd48da739d695e30c8} 
+Audio\+Stream\+Basic\+Description {\bfseries play\+Format}
+\item 
+\hypertarget{interface_s_t_c_audio_player_a3e80a4e04f58e971fd4e2a95e2bbb265}{}\label{interface_s_t_c_audio_player_a3e80a4e04f58e971fd4e2a95e2bbb265} 
+int {\bfseries index}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Synthesize\+Kit/\+Streamer/S\+T\+C\+Audio\+Player.\+h\item 
+Synthesize\+Kit/\+Streamer/S\+T\+C\+Audio\+Player.\+m\end{DoxyCompactItemize}

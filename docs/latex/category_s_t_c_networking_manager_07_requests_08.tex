@@ -1,0 +1,100 @@
+\hypertarget{category_s_t_c_networking_manager_07_requests_08}{}\section{S\+T\+C\+Networking\+Manager(Requests) Category Reference}
+\label{category_s_t_c_networking_manager_07_requests_08}\index{S\+T\+C\+Networking\+Manager(\+Requests)@{S\+T\+C\+Networking\+Manager(\+Requests)}}
+
+
+{\ttfamily \#import $<$S\+T\+C\+Networking\+Manager+\+Requests.\+h$>$}
+
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) -\/ \hyperlink{category_s_t_c_networking_manager_07_requests_08_a46b2c22ca530b473fe9b6e4a5cdb5d7f}{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}
+\item 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nullable) -\/ \hyperlink{category_s_t_c_networking_manager_07_requests_08_a37c2e90cf13e74182487be0f537a6321}{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}
+\item 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) -\/ \hyperlink{category_s_t_c_networking_manager_07_requests_08_a7cf3e2d4e1f5b8a1414c392b43ee63bd}{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:}
+\item 
+\hypertarget{category_s_t_c_networking_manager_07_requests_08_a3611a93c8a7d36d4fbbbeb4c70132150}{}\label{category_s_t_c_networking_manager_07_requests_08_a3611a93c8a7d36d4fbbbeb4c70132150} 
+(N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$) -\/ {\bfseries task\+Request\+With\+Type\+Request\+:with\+Body\+:for\+U\+R\+L\+String\+:completion\+Handler\+:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Is requests helper 
+
+\subsection{Method Documentation}
+\hypertarget{category_s_t_c_networking_manager_07_requests_08_a7cf3e2d4e1f5b8a1414c392b43ee63bd}{}\label{category_s_t_c_networking_manager_07_requests_08_a7cf3e2d4e1f5b8a1414c392b43ee63bd} 
+\index{S\+T\+C\+Networking\+Manager(\+Requests)@{S\+T\+C\+Networking\+Manager(\+Requests)}!task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:@{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:}}
+\index{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:@{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:}!S\+T\+C\+Networking\+Manager(\+Requests)@{S\+T\+C\+Networking\+Manager(\+Requests)}}
+\subsubsection{\texorpdfstring{task\+Delete\+Request\+For\+U\+R\+L\+String\+:completion\+Handler\+:()}{taskDeleteRequestForURLString:completionHandler:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) task\+Delete\+Request\+For\+U\+R\+L\+String\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$\+\_\+\+Nonnull)}]{url\+String }\item[{completionHandler:(void($^\wedge$)(N\+S\+Data $\ast$\+\_\+\+\_\+nullable data, N\+S\+U\+R\+L\+Response $\ast$\+\_\+\+\_\+nullable response, N\+S\+Error $\ast$\+\_\+\+\_\+nullable error))}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Forms D\+E\+L\+E\+TE request
+
+
+\begin{DoxyParams}{Parameters}
+{\em url\+String} & The U\+RL for request \\
+\hline
+{\em completion\+Handler} & The block which is called when data is received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The request 
+\end{DoxyReturn}
+
+
+Extends class \hyperlink{interface_s_t_c_networking_manager_a7cf3e2d4e1f5b8a1414c392b43ee63bd}{S\+T\+C\+Networking\+Manager}.
+
+\hypertarget{category_s_t_c_networking_manager_07_requests_08_a46b2c22ca530b473fe9b6e4a5cdb5d7f}{}\label{category_s_t_c_networking_manager_07_requests_08_a46b2c22ca530b473fe9b6e4a5cdb5d7f} 
+\index{S\+T\+C\+Networking\+Manager(\+Requests)@{S\+T\+C\+Networking\+Manager(\+Requests)}!task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}}
+\index{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}!S\+T\+C\+Networking\+Manager(\+Requests)@{S\+T\+C\+Networking\+Manager(\+Requests)}}
+\subsubsection{\texorpdfstring{task\+Get\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:()}{taskGetRequestForURLString:withBody:completionHandler:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nonnull) task\+Get\+Request\+For\+U\+R\+L\+String\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$\+\_\+\+Nonnull)}]{url\+String }\item[{withBody:(N\+S\+Dictionary $\ast$\+\_\+\+\_\+nullable)}]{body }\item[{completionHandler:(void($^\wedge$)(N\+S\+Data $\ast$\+\_\+\+\_\+nullable data, N\+S\+U\+R\+L\+Response $\ast$\+\_\+\+\_\+nullable response, N\+S\+Error $\ast$\+\_\+\+\_\+nullable error))}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Forms G\+ET request
+
+
+\begin{DoxyParams}{Parameters}
+{\em url\+String} & The U\+RL for request \\
+\hline
+{\em body} & The body of the requests \\
+\hline
+{\em completion\+Handler} & The block which is called when data is received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The request 
+\end{DoxyReturn}
+
+
+Extends class \hyperlink{interface_s_t_c_networking_manager_a46b2c22ca530b473fe9b6e4a5cdb5d7f}{S\+T\+C\+Networking\+Manager}.
+
+\hypertarget{category_s_t_c_networking_manager_07_requests_08_a37c2e90cf13e74182487be0f537a6321}{}\label{category_s_t_c_networking_manager_07_requests_08_a37c2e90cf13e74182487be0f537a6321} 
+\index{S\+T\+C\+Networking\+Manager(\+Requests)@{S\+T\+C\+Networking\+Manager(\+Requests)}!task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}}
+\index{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:@{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:}!S\+T\+C\+Networking\+Manager(\+Requests)@{S\+T\+C\+Networking\+Manager(\+Requests)}}
+\subsubsection{\texorpdfstring{task\+Post\+Request\+For\+U\+R\+L\+String\+:with\+Body\+:completion\+Handler\+:()}{taskPostRequestForURLString:withBody:completionHandler:()}}
+{\footnotesize\ttfamily -\/ (N\+S\+U\+R\+L\+Session\+Data\+Task $\ast$\+\_\+\+Nullable) task\+Post\+Request\+For\+U\+R\+L\+String\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$\+\_\+\+Nonnull)}]{url\+String }\item[{withBody:(N\+S\+Dictionary $\ast$\+\_\+\+Nullable)}]{body }\item[{completionHandler:(void($^\wedge$)(N\+S\+Data $\ast$\+\_\+\+\_\+nullable data, N\+S\+U\+R\+L\+Response $\ast$\+\_\+\+\_\+nullable response, N\+S\+Error $\ast$\+\_\+\+\_\+nullable error))}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Forms P\+O\+ST request
+
+
+\begin{DoxyParams}{Parameters}
+{\em url\+String} & The U\+RL for request \\
+\hline
+{\em body} & The body of the requests \\
+\hline
+{\em completion\+Handler} & The block which is called when data is received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The request 
+\end{DoxyReturn}
+
+
+Extends class \hyperlink{interface_s_t_c_networking_manager_a37c2e90cf13e74182487be0f537a6321}{S\+T\+C\+Networking\+Manager}.
+
+
+
+The documentation for this category was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Common/\+Networking/\+Category/S\+T\+C\+Networking\+Manager+\+Requests.\+h\item 
+Common/\+Networking/\+Category/S\+T\+C\+Networking\+Manager+\+Requests.\+m\end{DoxyCompactItemize}

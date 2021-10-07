@@ -1,0 +1,1 @@
+../../../SpeechproSpeechKit/SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Streamer/STCStreamRecognizer.h

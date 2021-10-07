@@ -1,0 +1,69 @@
+\hypertarget{interface_s_t_c_a_s_r_stream_networking_manager}{}\section{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager Class Reference}
+\label{interface_s_t_c_a_s_r_stream_networking_manager}\index{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager@{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager}}
+
+
+{\ttfamily \#import $<$S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager.\+h$>$}
+
+Inheritance diagram for S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{interface_s_t_c_a_s_r_stream_networking_manager}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_a_s_r_stream_networking_manager_a49f5bd94217465b2013e4e2b44e46f68}{start\+Stream\+With\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_a_s_r_stream_networking_manager_a221943cbf9a49b90a6e35fdb06bf4216}{start\+Stream\+With\+Package\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{interface_s_t_c_a_s_r_stream_networking_manager_ac401b83981c6ca10432d6af274002a47}{close\+Stream\+With\+Completion\+Handler\+:}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Provides working with the stream recognition A\+PI requests 
+
+\subsection{Method Documentation}
+\hypertarget{interface_s_t_c_a_s_r_stream_networking_manager_ac401b83981c6ca10432d6af274002a47}{}\label{interface_s_t_c_a_s_r_stream_networking_manager_ac401b83981c6ca10432d6af274002a47} 
+\index{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager@{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager}!close\+Stream\+With\+Completion\+Handler\+:@{close\+Stream\+With\+Completion\+Handler\+:}}
+\index{close\+Stream\+With\+Completion\+Handler\+:@{close\+Stream\+With\+Completion\+Handler\+:}!S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager@{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{close\+Stream\+With\+Completion\+Handler\+:()}{closeStreamWithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void) close\+Stream\+With\+Completion\+Handler\+: \begin{DoxyParamCaption}\item[{(Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Closes the stream transaction and provides the finished result 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The recognition completion handler \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_s_t_c_a_s_r_stream_networking_manager_a49f5bd94217465b2013e4e2b44e46f68}{}\label{interface_s_t_c_a_s_r_stream_networking_manager_a49f5bd94217465b2013e4e2b44e46f68} 
+\index{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager@{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager}!start\+Stream\+With\+Completion\+Handler\+:@{start\+Stream\+With\+Completion\+Handler\+:}}
+\index{start\+Stream\+With\+Completion\+Handler\+:@{start\+Stream\+With\+Completion\+Handler\+:}!S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager@{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{start\+Stream\+With\+Completion\+Handler\+:()}{startStreamWithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void) start\+Stream\+With\+Completion\+Handler\+: \begin{DoxyParamCaption}\item[{(Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Starts the stream transaction and provides the stream url 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The recognition completion handler \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_s_t_c_a_s_r_stream_networking_manager_a221943cbf9a49b90a6e35fdb06bf4216}{}\label{interface_s_t_c_a_s_r_stream_networking_manager_a221943cbf9a49b90a6e35fdb06bf4216} 
+\index{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager@{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager}!start\+Stream\+With\+Package\+:with\+Completion\+Handler\+:@{start\+Stream\+With\+Package\+:with\+Completion\+Handler\+:}}
+\index{start\+Stream\+With\+Package\+:with\+Completion\+Handler\+:@{start\+Stream\+With\+Package\+:with\+Completion\+Handler\+:}!S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager@{S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager}}
+\subsubsection{\texorpdfstring{start\+Stream\+With\+Package\+:with\+Completion\+Handler\+:()}{startStreamWithPackage:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void) start\+Stream\+With\+Package\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{package }\item[{withCompletionHandler:(Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Starts the stream transaction with the specific package and provides the stream url 
+\begin{DoxyParams}{Parameters}
+{\em package} & The specific package \\
+\hline
+{\em completion\+Handler} & The recognition completion handler \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Recognize\+Kit/\+Networking/\+Stream\+Recognize/S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager.\+h\item 
+Recognize\+Kit/\+Networking/\+Stream\+Recognize/S\+T\+C\+A\+S\+R\+Stream\+Networking\+Manager.\+m\end{DoxyCompactItemize}

@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045739B214FDCDFEB5F8EBD77E06F220 /* STCDiarizator.h in Headers */ = {isa = PBXBuildFile; fileRef = F77F412E147AFCB88F2011F4F845EEBE /* STCDiarizator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		065673B577DAE2ACCDBAF3B4A56ADE75 /* STCRecognizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5037850E17EDE49BCC1F524D3F2D0387 /* STCRecognizing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07A059918FF713CA3EB8C6984E3137E9 /* STCRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D7AAF016ADF4605C48B555D9DBE50A /* STCRecognizer.m */; };
+		08E56AFDF0B69D64DCB858DED1913AAD /* STCASRPackageListNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E15F289D13743075E85C3A9A6DA552BF /* STCASRPackageListNetworkingManager.m */; };
+		0E57FF1B8AF77431434DF8E09634F8C7 /* NSURLResponse+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C15A28AA9B140EF635D6E81C7A1F5B /* NSURLResponse+Status.m */; };
+		0EC91D0579F5C5DA4161FC07CDDC7738 /* STCASVSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE1710BE7B29EBDC8AAA2ED35EBB64B /* STCASVSKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1001D57B592CB74EB41129E73D9E3686 /* NSString+Language.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8E112B490F216E1CBFE1C7F70007B1 /* NSString+Language.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14A104200A12F47D579E91E412FC4348 /* STCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 334F01B4F2F3DAEBC82F32CD735F5C47 /* STCError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14ACE181B18D03CBB0D98212E0707544 /* STCASVSURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 974086D577DD695D61CDB91AC745C8CB /* STCASVSURLManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1609DDB8B1615A64831326679DAE3B71 /* STCDRZURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15264F90C5225395FB5A44BD4B7E4F32 /* STCDRZURLManager.m */; };
+		18458C8C14134FC25770A6D805229EFB /* STCAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 447AD2E06D97C1B2FD87BDFB7A8FA26E /* STCAudioPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AD72FF313FD29C29814625FDCCB32A9 /* STCDiarizationKitImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF89B45F881F3609B5A67D56ECE3C2 /* STCDiarizationKitImplementation.m */; };
+		1D44CBC74DD08F96751302039B41F709 /* NSObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D03925927FF632A306E105921E70D1 /* NSObject+JSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		234315AC206B018A26942C2B663C7144 /* STCError.m in Sources */ = {isa = PBXBuildFile; fileRef = D60C1FA4D5A73CD3719DBF02DC492793 /* STCError.m */; };
+		297F3DC8E20D4CF1188C0123C9F7F0EF /* STCNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC94613C717122E1D1EB27D5574B8D8 /* STCNetworkingManager.m */; };
+		324414091A7384A62FDB8AD3BF292AE5 /* STCTTSLanguageNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FF24C4EDA8ED5447B95D51CDE6A8A6 /* STCTTSLanguageNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		336AC7F79DF3D893EB8913BAE2B82B23 /* STCASVSpoofer.h in Headers */ = {isa = PBXBuildFile; fileRef = D8927D7492BABF48191E59243FA71ED5 /* STCASVSpoofer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38D3F70565C66F0510FB663AD25D4CE9 /* STCDiarizating.h in Headers */ = {isa = PBXBuildFile; fileRef = B272495030231C7EC36244C3C8D123C9 /* STCDiarizating.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39DB6466836DFA365CB6B71AB5F5C267 /* STCSpeechKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D1EAE30FADCD7465B946F2A6BB88BF /* STCSpeechKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C06E942A99CB50B45ABA97B5789B13E /* Pods-STCSpeechKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC16653D620C6508A7B9EAE9EB5C20A /* Pods-STCSpeechKitDemo-dummy.m */; };
+		3D4704DD148C66F2A00D84547DE6E879 /* STCASRURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D342E9D1DA35B24D781353CE0593B3 /* STCASRURLManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EAC5E648237F076D02888A7941DF41B /* STCDRZNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A9E62A9EA385F3D82A69234D5D3EA2 /* STCDRZNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40066ED1AC660D3D08C7950E391A4CB4 /* OPCSAudioQueueRecorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 60684EF94461EBCBE4C0479A601015DF /* OPCSAudioQueueRecorder.c */; };
+		4044FAA998344E55AE6FFE213B5E735D /* STCSynthesizeKitImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A152B05D447E879D5020B37BBE8FCC /* STCSynthesizeKitImplementation.m */; };
+		4292ED27ED80B3713BB1BFEFE3B92C35 /* STCRecognizeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB542D603398723D8F5BA1781C3C87C /* STCRecognizeKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EF6BD4358FC4762AF1518A92CED50B /* STCASRRecognizeNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8051B14E2CEF7B43501757F59B6EE747 /* STCASRRecognizeNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A525984255DC17D580F85666F72B458 /* STCSynthesizeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEC4912FA04C4E0D4FB0A37E2268EC9 /* STCSynthesizeKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D35166F9B167BB068868536E9A89D42 /* STCStreamSynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C18E14966EE600B0A21305CB407571 /* STCStreamSynthesizing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EDF107E978A3BCEFAE3792A53A06DAD /* STCRecognizeKitImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 556020262B29A6C466C35A1B106DF09A /* STCRecognizeKitImplementation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55211B5FBF630635854DFDF874FBCF9F /* OPCSCaptureVoice2BufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA46983561403EDCC31318CB6FE310C /* OPCSCaptureVoice2BufferManager.m */; };
+		5BB01DD8F56C04AECE09E3D3AD9A472E /* STCASVSKitImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = E85EBDB21C1303FE0E81C7EBD911D54C /* STCASVSKitImplementation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CC32427037E18D9D61AA8BF6BE1861C /* STCTTSURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A4874240B520866A5C6F8D32496209 /* STCTTSURLManager.m */; };
+		5D67357214E9BB0C178D88B89D509139 /* STCTTSSynthesizeNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4AF09B5EA5EDABDE91B914BBCB3D0 /* STCTTSSynthesizeNetworkingManager.m */; };
+		5F2EB00BFF8511889C173C59AD99A3B1 /* STCNetworkingManager+Error.h in Headers */ = {isa = PBXBuildFile; fileRef = B44F759A9565D226629C2BB0F3AC1ABF /* STCNetworkingManager+Error.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61591544E0F607837B36321EC2205FCA /* STCASVSNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F364440113A0F18F7A15440303FA0B14 /* STCASVSNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		615BA6B2F85CC31D5CBA8ED8915BF1DC /* STCStreamSynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A2C5BB5C55BFCEEF2EA299681DFDB4 /* STCStreamSynthesizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63F4C7B2C5D0A48E2DC3CD474AFC6504 /* STCTTSVoiceNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B6BA1E6751999B45DA4659015BA0A /* STCTTSVoiceNetworkingManager.m */; };
+		6C6F9D1A01F6F11CBEA6FC3F9EFC7E6C /* STCASVSpoofing.h in Headers */ = {isa = PBXBuildFile; fileRef = 82111FA585E7AB1FA1429963AC7964CA /* STCASVSpoofing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CE4BC072B35D70B31B53BB604D917A5 /* STCWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 18080127A16B4C0BD1EB13FFE7F2E7FE /* STCWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76F06EEF186ADE454F32D44FA43C94D0 /* STCTTSSynthesizeNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E8F85CFD3092D8C97928566C1D3A51 /* STCTTSSynthesizeNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78FFADF8E96F2736A5459281E06824D7 /* STCSynthesizeKitImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEB998F25E9E3D6027ACBFD6F7E08BD /* STCSynthesizeKitImplementation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		798F48BC72ECB129773A6AFCDE397B1C /* STCTTSVoiceNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 647B8FAE4D3F8D2651FE56907F160537 /* STCTTSVoiceNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C1F24062E24E5E1EED7F722CF59E3B9 /* STCASRURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 160AED461DE987232FFD4034FFBCE2EA /* STCASRURLManager.m */; };
+		7CA9324E41200FE82C0BAF1D86B10DE7 /* STCTTSStreamNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B2D67FBC3FEA36544331CAF46A290 /* STCTTSStreamNetworkingManager.m */; };
+		7E43B83FB85E0ABB3114E04A04D88B87 /* STCTTSStreamNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB3B02DCB88E989BB59C31EB2AF5504 /* STCTTSStreamNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F40BEE36B0D7270A68B76FB0AC9ED56 /* STCTTSLanguageNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446651991C22D22E688C23DB6269C8F3 /* STCTTSLanguageNetworkingManager.m */; };
+		881D0ACCC12125C2090C5533D6025233 /* STCStreamRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0699E6BFA3E5EAC7965AE8552A779613 /* STCStreamRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A74BE7CA07BDB516421ABE1F7FFF6DC /* STCNetworkingManager+Requests.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F205C0BB92D9403225777743BD29608 /* STCNetworkingManager+Requests.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90033ED94B7BED2B3B0E80A3B1F2F80D /* STCWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE15F36D74BD71AE6F7428182B08DE1 /* STCWebSocket.m */; };
+		90310D01C69E1BC779FEFAB121AE8078 /* STCDiarizator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A251FC4B22C8EF3BB88213C74C69EE9 /* STCDiarizator.m */; };
+		94F1C5736409EEF56E8D0822D0958A40 /* STCSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC8E22F2AFFB6F6E1D7EB4EC1EDFD42 /* STCSynthesizer.m */; };
+		99057781DCF4955EDAC77A7524324CE7 /* OPCSCaptureVoice2BufferManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 817E7877ABC8C40ABC821F1D06D3A46C /* OPCSCaptureVoice2BufferManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9ABBF13E2B40725899A815BCC90C97B0 /* STCNetworkingManager+Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 48811E9477890405D1C7C059E6725AC7 /* STCNetworkingManager+Error.m */; };
+		9C609EC5344194FBBF53A2DFC88F2089 /* NSURLResponse+Status.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E1E151291A307C199FEE95E457C126 /* NSURLResponse+Status.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F4673C2E952040E7C86AF9D2DDE82DA /* STCASVSURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EDAC25004D90B21B004E0CB3F02FBD /* STCASVSURLManager.m */; };
+		A265DFEE980ED1098F1FA500CA0EE770 /* OPCSAudioQueueRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B39BAC463D8A010689711E497A4C8D /* OPCSAudioQueueRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A285BD0DD2AB803CE086B1F93E4A8A79 /* STCSynthesizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB781AC904081C9FD14D6FBC2A48890 /* STCSynthesizing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4C6D13FE0D6CCE82E5A99DE3500CAC4 /* STCErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F81CFB8BEB860F74F5E1A80199421711 /* STCErrorCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFE73C48E47D14C91235B3E5C7FE394E /* STCDiarizationKitImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BBE748811A241B01344E9222EF4B2F /* STCDiarizationKitImplementation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B13E6FC222860C95904C70214C9A1E50 /* STCStreamRecognizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5A9C6B4BC068A1914A5CC80FCDCFF0 /* STCStreamRecognizing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B60A158CF3A69652B0E8909ED8291A13 /* STCRecognizeKitImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB63CB902E42765EE9B3E7B3717C10A /* STCRecognizeKitImplementation.m */; };
+		B7C0DAF9BBE2D944E771BFDD2914788B /* STCNetworkingManager+Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248D75BCBB5E3E356A67BD37795DEDC /* STCNetworkingManager+Requests.m */; };
+		B90B87EB3FE474FC571A0041E2E6305B /* STCNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB49DCF8D0C9186E1D8C6B7AD25D4158 /* STCNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B95345206762517A61BEF1945EFBBD11 /* STCASRStreamNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92326324BF86A0C377265FA99B258EDF /* STCASRStreamNetworkingManager.m */; };
+		BC5E3ECA7A57AF6A4F5002DF0DF962DB /* STCSynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA3946349722F5CDAA2FA6E2225ACBD /* STCSynthesizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF432CB7D6C239EEB32A6CCD541ABAE9 /* STCSessionURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E28AF34C1672014039CA46CE0EDC2B82 /* STCSessionURLManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C16FEBA32C253C030CC35E482C6B9AD2 /* STCASVSKitImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 745664C4F2546F72D41E15C4129B7E75 /* STCASVSKitImplementation.m */; };
+		C3E5F2BBAF7AE481C85BC59EE207B467 /* STCASVSpoofer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC15BB1DC1DFA0A56442C96CEB366C1 /* STCASVSpoofer.m */; };
+		C4597B4656787D709445D8C8A16A7EB5 /* NSString+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FAB2C4444D295C5214F1566A04C0B8 /* NSString+Language.m */; };
+		C5D0E0C291ACE3518BB3FE094DC21590 /* STCDRZURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF161DC23058D1C843C318B555125D91 /* STCDRZURLManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBFFC7A4B3BFEA68BAD93E57A76542D2 /* STCAuthorizationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DCD95B8F8835A0BD822DA0B3B7A01D /* STCAuthorizationData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF3ECA4D56A16B45B4A018E1F00DD3EA /* STCAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6136B8F5C665FBFD525DAB23DAC92279 /* STCAudioPlayer.m */; };
+		D8D6E26939D834EB05197738D92C744D /* STCASRStreamNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E75E581B6DC39B50851DBF6B1B2565 /* STCASRStreamNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD5BDEF2788F22050E78CF188DA685FA /* STCStreamRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB8731378156B3591BC7DC0A1F2928 /* STCStreamRecognizer.m */; };
+		E073A1426F44B0B13B011A2B63861E10 /* STCASRPackageListNetworkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F47BB0895900527E46062C0EC963AEB /* STCASRPackageListNetworkingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E14D40503FCF73F46E8310C76B0B986C /* STCDRZNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2179C62331F2F7F62F60F3944BF2CD5D /* STCDRZNetworkingManager.m */; };
+		E1D2D3BBF0083CD14597BAC2C7393862 /* STCSpeechKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF95CDA2360549E43853B890C005275D /* STCSpeechKit.m */; };
+		E2D9C9E2AD06674C8857DB0C19F76E0A /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B5E5FAFA313A8D0CFED60C619059E /* NSObject+JSON.m */; };
+		E42CC281B3029FA64EB8CF278FA187EE /* STCDiarizationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 19080F0F89884C847F391B55B75E9608 /* STCDiarizationKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6B106E306F322F7C599374FBBB85E4C /* STCStreamSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B5BAC84A888C66DF2AD816579E1E4C /* STCStreamSynthesizer.m */; };
+		E9647826318D4FCDEE1E3A9AC3F093F3 /* STCRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF579867F9E8792DE206C669F29404C /* STCRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC0483F9189885261E016C4973175E1B /* STCTTSURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BB110A5A5ACB36832B79CA5699AFC8C3 /* STCTTSURLManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDC42617ECC5AAEC1AC80E0FEC61F88A /* SpeechproSpeechKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77093448223DE8001633A764985395A9 /* SpeechproSpeechKit-dummy.m */; };
+		EE9C7903F4433E240ADF0CB90334015E /* STCASRRecognizeNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543E54A8690AAA66B4C8C54F03C3428 /* STCASRRecognizeNetworkingManager.m */; };
+		FD89E3516E84C61301CB209A6DC31B9C /* STCSessionURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201F6C34DB49E92ED4C3804B4BD1311 /* STCSessionURLManager.m */; };
+		FDB7FD70239C2E777030DE6A90800874 /* STCASVSNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A920D20323ADA018BF8AC75F60E6BB81 /* STCASVSNetworkingManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9FCEC8FD5CECDDD78704DF3031B2ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BBD7ACC7C7F765CBCE93D2F1F5ABA1;
+			remoteInfo = SpeechproSpeechKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0248D75BCBB5E3E356A67BD37795DEDC /* STCNetworkingManager+Requests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "STCNetworkingManager+Requests.m"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Networking/Category/STCNetworkingManager+Requests.m"; sourceTree = "<group>"; };
+		02D1EAE30FADCD7465B946F2A6BB88BF /* STCSpeechKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCSpeechKit.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCSpeechKit.h; sourceTree = "<group>"; };
+		0699E6BFA3E5EAC7965AE8552A779613 /* STCStreamRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCStreamRecognizer.h; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Streamer/STCStreamRecognizer.h; sourceTree = "<group>"; };
+		0DA3946349722F5CDAA2FA6E2225ACBD /* STCSynthesizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCSynthesizer.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Synthesizing/STCSynthesizer.h; sourceTree = "<group>"; };
+		15264F90C5225395FB5A44BD4B7E4F32 /* STCDRZURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCDRZURLManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/Networking/STCDRZURLManager.m; sourceTree = "<group>"; };
+		160AED461DE987232FFD4034FFBCE2EA /* STCASRURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASRURLManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/Base/STCASRURLManager.m; sourceTree = "<group>"; };
+		18080127A16B4C0BD1EB13FFE7F2E7FE /* STCWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCWebSocket.h; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/Sockets/STCWebSocket.h; sourceTree = "<group>"; };
+		19080F0F89884C847F391B55B75E9608 /* STCDiarizationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCDiarizationKit.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCDiarizationKit.h; sourceTree = "<group>"; };
+		1D0B2D67FBC3FEA36544331CAF46A290 /* STCTTSStreamNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCTTSStreamNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Stream/STCTTSStreamNetworkingManager.m; sourceTree = "<group>"; };
+		1DF579867F9E8792DE206C669F29404C /* STCRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCRecognizer.h; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Recognizing/STCRecognizer.h; sourceTree = "<group>"; };
+		20C15A28AA9B140EF635D6E81C7A1F5B /* NSURLResponse+Status.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLResponse+Status.m"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Category/NSURLResponse+Status.m"; sourceTree = "<group>"; };
+		2154FDDE7676D98E05D9A1C2EECBE706 /* SpeechproSpeechKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpeechproSpeechKit.debug.xcconfig; sourceTree = "<group>"; };
+		2179C62331F2F7F62F60F3944BF2CD5D /* STCDRZNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCDRZNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/Networking/STCDRZNetworkingManager.m; sourceTree = "<group>"; };
+		22D7AAF016ADF4605C48B555D9DBE50A /* STCRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCRecognizer.m; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Recognizing/STCRecognizer.m; sourceTree = "<group>"; };
+		24B5BAC84A888C66DF2AD816579E1E4C /* STCStreamSynthesizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCStreamSynthesizer.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Streamer/STCStreamSynthesizer.m; sourceTree = "<group>"; };
+		26DCD95B8F8835A0BD822DA0B3B7A01D /* STCAuthorizationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCAuthorizationData.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCAuthorizationData.h; sourceTree = "<group>"; };
+		2EC16653D620C6508A7B9EAE9EB5C20A /* Pods-STCSpeechKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STCSpeechKitDemo-dummy.m"; sourceTree = "<group>"; };
+		334F01B4F2F3DAEBC82F32CD735F5C47 /* STCError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCError.h; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/Error/STCError.h; sourceTree = "<group>"; };
+		35D342E9D1DA35B24D781353CE0593B3 /* STCASRURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASRURLManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/Base/STCASRURLManager.h; sourceTree = "<group>"; };
+		373E08C4BAE0D9476CCF649BA703B605 /* Pods-STCSpeechKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STCSpeechKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC94613C717122E1D1EB27D5574B8D8 /* STCNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/Networking/STCNetworkingManager.m; sourceTree = "<group>"; };
+		3F205C0BB92D9403225777743BD29608 /* STCNetworkingManager+Requests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STCNetworkingManager+Requests.h"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Networking/Category/STCNetworkingManager+Requests.h"; sourceTree = "<group>"; };
+		3F47BB0895900527E46062C0EC963AEB /* STCASRPackageListNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASRPackageListNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/Packages/STCASRPackageListNetworkingManager.h; sourceTree = "<group>"; };
+		446651991C22D22E688C23DB6269C8F3 /* STCTTSLanguageNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCTTSLanguageNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Language/STCTTSLanguageNetworkingManager.m; sourceTree = "<group>"; };
+		447AD2E06D97C1B2FD87BDFB7A8FA26E /* STCAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCAudioPlayer.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Streamer/STCAudioPlayer.h; sourceTree = "<group>"; };
+		48811E9477890405D1C7C059E6725AC7 /* STCNetworkingManager+Error.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "STCNetworkingManager+Error.m"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Networking/Category/STCNetworkingManager+Error.m"; sourceTree = "<group>"; };
+		4A251FC4B22C8EF3BB88213C74C69EE9 /* STCDiarizator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCDiarizator.m; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/Diarizator/STCDiarizator.m; sourceTree = "<group>"; };
+		4DA46983561403EDCC31318CB6FE310C /* OPCSCaptureVoice2BufferManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPCSCaptureVoice2BufferManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/VoiceCapture/OPCSCaptureVoice2BufferManager.m; sourceTree = "<group>"; };
+		4FC8E22F2AFFB6F6E1D7EB4EC1EDFD42 /* STCSynthesizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCSynthesizer.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Synthesizing/STCSynthesizer.m; sourceTree = "<group>"; };
+		5037850E17EDE49BCC1F524D3F2D0387 /* STCRecognizing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCRecognizing.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCRecognizing.h; sourceTree = "<group>"; };
+		5201F6C34DB49E92ED4C3804B4BD1311 /* STCSessionURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCSessionURLManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/STCSessionURLManager.m; sourceTree = "<group>"; };
+		556020262B29A6C466C35A1B106DF09A /* STCRecognizeKitImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCRecognizeKitImplementation.h; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/STCRecognizeKitImplementation.h; sourceTree = "<group>"; };
+		595A80BE5D58DA9AD8A5E0F8B15AFCB6 /* SpeechproSpeechKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpeechproSpeechKit-prefix.pch"; sourceTree = "<group>"; };
+		60684EF94461EBCBE4C0479A601015DF /* OPCSAudioQueueRecorder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = OPCSAudioQueueRecorder.c; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/VoiceCapture/OPCSAudioQueueRecorder.c; sourceTree = "<group>"; };
+		6136B8F5C665FBFD525DAB23DAC92279 /* STCAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCAudioPlayer.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Streamer/STCAudioPlayer.m; sourceTree = "<group>"; };
+		62E8F85CFD3092D8C97928566C1D3A51 /* STCTTSSynthesizeNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCTTSSynthesizeNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Synthesize/STCTTSSynthesizeNetworkingManager.h; sourceTree = "<group>"; };
+		63A152B05D447E879D5020B37BBE8FCC /* STCSynthesizeKitImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCSynthesizeKitImplementation.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/STCSynthesizeKitImplementation.m; sourceTree = "<group>"; };
+		647B8FAE4D3F8D2651FE56907F160537 /* STCTTSVoiceNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCTTSVoiceNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Voice/STCTTSVoiceNetworkingManager.h; sourceTree = "<group>"; };
+		64BB8731378156B3591BC7DC0A1F2928 /* STCStreamRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCStreamRecognizer.m; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Streamer/STCStreamRecognizer.m; sourceTree = "<group>"; };
+		6543E54A8690AAA66B4C8C54F03C3428 /* STCASRRecognizeNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASRRecognizeNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/Recognize/STCASRRecognizeNetworkingManager.m; sourceTree = "<group>"; };
+		6FB63CB902E42765EE9B3E7B3717C10A /* STCRecognizeKitImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCRecognizeKitImplementation.m; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/STCRecognizeKitImplementation.m; sourceTree = "<group>"; };
+		736B6BA1E6751999B45DA4659015BA0A /* STCTTSVoiceNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCTTSVoiceNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Voice/STCTTSVoiceNetworkingManager.m; sourceTree = "<group>"; };
+		745664C4F2546F72D41E15C4129B7E75 /* STCASVSKitImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASVSKitImplementation.m; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSKitImplementation.m; sourceTree = "<group>"; };
+		75D03925927FF632A306E105921E70D1 /* NSObject+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JSON.h"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Category/NSObject+JSON.h"; sourceTree = "<group>"; };
+		77093448223DE8001633A764985395A9 /* SpeechproSpeechKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpeechproSpeechKit-dummy.m"; sourceTree = "<group>"; };
+		7FF4AF09B5EA5EDABDE91B914BBCB3D0 /* STCTTSSynthesizeNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCTTSSynthesizeNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Synthesize/STCTTSSynthesizeNetworkingManager.m; sourceTree = "<group>"; };
+		8051B14E2CEF7B43501757F59B6EE747 /* STCASRRecognizeNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASRRecognizeNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/Recognize/STCASRRecognizeNetworkingManager.h; sourceTree = "<group>"; };
+		817E7877ABC8C40ABC821F1D06D3A46C /* OPCSCaptureVoice2BufferManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPCSCaptureVoice2BufferManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/VoiceCapture/OPCSCaptureVoice2BufferManager.h; sourceTree = "<group>"; };
+		82111FA585E7AB1FA1429963AC7964CA /* STCASVSpoofing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASVSpoofing.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCASVSpoofing.h; sourceTree = "<group>"; };
+		8A5A9C6B4BC068A1914A5CC80FCDCFF0 /* STCStreamRecognizing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCStreamRecognizing.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCStreamRecognizing.h; sourceTree = "<group>"; };
+		8BB781AC904081C9FD14D6FBC2A48890 /* STCSynthesizing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCSynthesizing.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCSynthesizing.h; sourceTree = "<group>"; };
+		8D2EF22B765CEECF8B5BF158FAD6D04D /* Pods-STCSpeechKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STCSpeechKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92326324BF86A0C377265FA99B258EDF /* STCASRStreamNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASRStreamNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/StreamRecognize/STCASRStreamNetworkingManager.m; sourceTree = "<group>"; };
+		94FAB2C4444D295C5214F1566A04C0B8 /* NSString+Language.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Language.m"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Category/NSString+Language.m"; sourceTree = "<group>"; };
+		96EDAC25004D90B21B004E0CB3F02FBD /* STCASVSURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASVSURLManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSURLManager.m; sourceTree = "<group>"; };
+		974086D577DD695D61CDB91AC745C8CB /* STCASVSURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASVSURLManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSURLManager.h; sourceTree = "<group>"; };
+		9D8E112B490F216E1CBFE1C7F70007B1 /* NSString+Language.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Language.h"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Category/NSString+Language.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC15BB1DC1DFA0A56442C96CEB366C1 /* STCASVSpoofer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASVSpoofer.m; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSpoofer.m; sourceTree = "<group>"; };
+		A5A2C5BB5C55BFCEEF2EA299681DFDB4 /* STCStreamSynthesizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCStreamSynthesizer.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Streamer/STCStreamSynthesizer.h; sourceTree = "<group>"; };
+		A76B5E5FAFA313A8D0CFED60C619059E /* NSObject+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JSON.m"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Category/NSObject+JSON.m"; sourceTree = "<group>"; };
+		A920D20323ADA018BF8AC75F60E6BB81 /* STCASVSNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASVSNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSNetworkingManager.m; sourceTree = "<group>"; };
+		AB49DCF8D0C9186E1D8C6B7AD25D4158 /* STCNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/Networking/STCNetworkingManager.h; sourceTree = "<group>"; };
+		ADEB998F25E9E3D6027ACBFD6F7E08BD /* STCSynthesizeKitImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCSynthesizeKitImplementation.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/STCSynthesizeKitImplementation.h; sourceTree = "<group>"; };
+		AFABA7EC629E5F5F06C8E6DC04EE1EF2 /* libPods-STCSpeechKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STCSpeechKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE1710BE7B29EBDC8AAA2ED35EBB64B /* STCASVSKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASVSKit.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCASVSKit.h; sourceTree = "<group>"; };
+		B0C18E14966EE600B0A21305CB407571 /* STCStreamSynthesizing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCStreamSynthesizing.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCStreamSynthesizing.h; sourceTree = "<group>"; };
+		B272495030231C7EC36244C3C8D123C9 /* STCDiarizating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCDiarizating.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCDiarizating.h; sourceTree = "<group>"; };
+		B32C814E18F2687C4DA99E345B74F2A6 /* libSpeechproSpeechKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpeechproSpeechKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44F759A9565D226629C2BB0F3AC1ABF /* STCNetworkingManager+Error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STCNetworkingManager+Error.h"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Networking/Category/STCNetworkingManager+Error.h"; sourceTree = "<group>"; };
+		BB110A5A5ACB36832B79CA5699AFC8C3 /* STCTTSURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCTTSURLManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Base/STCTTSURLManager.h; sourceTree = "<group>"; };
+		BF95CDA2360549E43853B890C005275D /* STCSpeechKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCSpeechKit.m; path = SpeechproSpeechKit/SpeechproSpeechKit/STCSpeechKit.m; sourceTree = "<group>"; };
+		C6FF89B45F881F3609B5A67D56ECE3C2 /* STCDiarizationKitImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCDiarizationKitImplementation.m; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/STCDiarizationKitImplementation.m; sourceTree = "<group>"; };
+		C7B39BAC463D8A010689711E497A4C8D /* OPCSAudioQueueRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPCSAudioQueueRecorder.h; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/VoiceCapture/OPCSAudioQueueRecorder.h; sourceTree = "<group>"; };
+		C7FF24C4EDA8ED5447B95D51CDE6A8A6 /* STCTTSLanguageNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCTTSLanguageNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Language/STCTTSLanguageNetworkingManager.h; sourceTree = "<group>"; };
+		C9A9E62A9EA385F3D82A69234D5D3EA2 /* STCDRZNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCDRZNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/Networking/STCDRZNetworkingManager.h; sourceTree = "<group>"; };
+		CCB542D603398723D8F5BA1781C3C87C /* STCRecognizeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCRecognizeKit.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCRecognizeKit.h; sourceTree = "<group>"; };
+		D60C1FA4D5A73CD3719DBF02DC492793 /* STCError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCError.m; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/Error/STCError.m; sourceTree = "<group>"; };
+		D799E6F814FE459530261F29B450462A /* Pods-STCSpeechKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STCSpeechKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8927D7492BABF48191E59243FA71ED5 /* STCASVSpoofer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASVSpoofer.h; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSpoofer.h; sourceTree = "<group>"; };
+		D8E1E151291A307C199FEE95E457C126 /* NSURLResponse+Status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLResponse+Status.h"; path = "SpeechproSpeechKit/SpeechproSpeechKit/Common/Category/NSURLResponse+Status.h"; sourceTree = "<group>"; };
+		DEEC4912FA04C4E0D4FB0A37E2268EC9 /* STCSynthesizeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCSynthesizeKit.h; path = SpeechproSpeechKit/SpeechproSpeechKit/STCSynthesizeKit.h; sourceTree = "<group>"; };
+		E15F289D13743075E85C3A9A6DA552BF /* STCASRPackageListNetworkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCASRPackageListNetworkingManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/Packages/STCASRPackageListNetworkingManager.m; sourceTree = "<group>"; };
+		E28AF34C1672014039CA46CE0EDC2B82 /* STCSessionURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCSessionURLManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/STCSessionURLManager.h; sourceTree = "<group>"; };
+		E5B6D3845FF7A21F265492E117743B72 /* Pods-STCSpeechKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STCSpeechKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E5E75E581B6DC39B50851DBF6B1B2565 /* STCASRStreamNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASRStreamNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/RecognizeKit/Networking/StreamRecognize/STCASRStreamNetworkingManager.h; sourceTree = "<group>"; };
+		E6BBE748811A241B01344E9222EF4B2F /* STCDiarizationKitImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCDiarizationKitImplementation.h; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/STCDiarizationKitImplementation.h; sourceTree = "<group>"; };
+		E85EBDB21C1303FE0E81C7EBD911D54C /* STCASVSKitImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASVSKitImplementation.h; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSKitImplementation.h; sourceTree = "<group>"; };
+		ECB3B02DCB88E989BB59C31EB2AF5504 /* STCTTSStreamNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCTTSStreamNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Stream/STCTTSStreamNetworkingManager.h; sourceTree = "<group>"; };
+		EF161DC23058D1C843C318B555125D91 /* STCDRZURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCDRZURLManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/Networking/STCDRZURLManager.h; sourceTree = "<group>"; };
+		F10948613182F3CA22CF47B99B924374 /* SpeechproSpeechKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpeechproSpeechKit.release.xcconfig; sourceTree = "<group>"; };
+		F364440113A0F18F7A15440303FA0B14 /* STCASVSNetworkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCASVSNetworkingManager.h; path = SpeechproSpeechKit/SpeechproSpeechKit/AntiSpoofingKit/STCASVSNetworkingManager.h; sourceTree = "<group>"; };
+		F6A4874240B520866A5C6F8D32496209 /* STCTTSURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCTTSURLManager.m; path = SpeechproSpeechKit/SpeechproSpeechKit/SynthesizeKit/Networking/Base/STCTTSURLManager.m; sourceTree = "<group>"; };
+		F77F412E147AFCB88F2011F4F845EEBE /* STCDiarizator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCDiarizator.h; path = SpeechproSpeechKit/SpeechproSpeechKit/DiarizationKit/Diarizator/STCDiarizator.h; sourceTree = "<group>"; };
+		F81CFB8BEB860F74F5E1A80199421711 /* STCErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCErrorCode.h; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/Error/STCErrorCode.h; sourceTree = "<group>"; };
+		FDE15F36D74BD71AE6F7428182B08DE1 /* STCWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCWebSocket.m; path = SpeechproSpeechKit/SpeechproSpeechKit/Common/Sockets/STCWebSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AAFB11328BA98D9233C9B2BFF984BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98DC3E3417405733E7115FEC40BB421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3D0B8FA97C2C6D39F0CCA8108ED7FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC128F5C44C9BB34E09EF67ECD81EFD9 /* SpeechproSpeechKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EC932F5C58A8DAF88067DEE7BD60C25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2F6C16BEA6D2389EF8500CD665BEC9A /* Pods-STCSpeechKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64CE04C385D7D1AD0A1CA6B960C8E76F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77093448223DE8001633A764985395A9 /* SpeechproSpeechKit-dummy.m */,
+				595A80BE5D58DA9AD8A5E0F8B15AFCB6 /* SpeechproSpeechKit-prefix.pch */,
+				2154FDDE7676D98E05D9A1C2EECBE706 /* SpeechproSpeechKit.debug.xcconfig */,
+				F10948613182F3CA22CF47B99B924374 /* SpeechproSpeechKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpeechproSpeechKit";
+			sourceTree = "<group>";
+		};
+		AE230251134092763D4BE44F95EF82C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFABA7EC629E5F5F06C8E6DC04EE1EF2 /* libPods-STCSpeechKitDemo.a */,
+				B32C814E18F2687C4DA99E345B74F2A6 /* libSpeechproSpeechKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0A3D0B8FA97C2C6D39F0CCA8108ED7FE /* Pods */,
+				AE230251134092763D4BE44F95EF82C0 /* Products */,
+				5EC932F5C58A8DAF88067DEE7BD60C25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F6C16BEA6D2389EF8500CD665BEC9A /* Pods-STCSpeechKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D2EF22B765CEECF8B5BF158FAD6D04D /* Pods-STCSpeechKitDemo-acknowledgements.markdown */,
+				D799E6F814FE459530261F29B450462A /* Pods-STCSpeechKitDemo-acknowledgements.plist */,
+				2EC16653D620C6508A7B9EAE9EB5C20A /* Pods-STCSpeechKitDemo-dummy.m */,
+				373E08C4BAE0D9476CCF649BA703B605 /* Pods-STCSpeechKitDemo.debug.xcconfig */,
+				E5B6D3845FF7A21F265492E117743B72 /* Pods-STCSpeechKitDemo.release.xcconfig */,
+			);
+			name = "Pods-STCSpeechKitDemo";
+			path = "Target Support Files/Pods-STCSpeechKitDemo";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC128F5C44C9BB34E09EF67ECD81EFD9 /* SpeechproSpeechKit */ = {
+			isa = PBXGroup;
+			children = (
+				75D03925927FF632A306E105921E70D1 /* NSObject+JSON.h */,
+				A76B5E5FAFA313A8D0CFED60C619059E /* NSObject+JSON.m */,
+				9D8E112B490F216E1CBFE1C7F70007B1 /* NSString+Language.h */,
+				94FAB2C4444D295C5214F1566A04C0B8 /* NSString+Language.m */,
+				D8E1E151291A307C199FEE95E457C126 /* NSURLResponse+Status.h */,
+				20C15A28AA9B140EF635D6E81C7A1F5B /* NSURLResponse+Status.m */,
+				60684EF94461EBCBE4C0479A601015DF /* OPCSAudioQueueRecorder.c */,
+				C7B39BAC463D8A010689711E497A4C8D /* OPCSAudioQueueRecorder.h */,
+				817E7877ABC8C40ABC821F1D06D3A46C /* OPCSCaptureVoice2BufferManager.h */,
+				4DA46983561403EDCC31318CB6FE310C /* OPCSCaptureVoice2BufferManager.m */,
+				3F47BB0895900527E46062C0EC963AEB /* STCASRPackageListNetworkingManager.h */,
+				E15F289D13743075E85C3A9A6DA552BF /* STCASRPackageListNetworkingManager.m */,
+				8051B14E2CEF7B43501757F59B6EE747 /* STCASRRecognizeNetworkingManager.h */,
+				6543E54A8690AAA66B4C8C54F03C3428 /* STCASRRecognizeNetworkingManager.m */,
+				E5E75E581B6DC39B50851DBF6B1B2565 /* STCASRStreamNetworkingManager.h */,
+				92326324BF86A0C377265FA99B258EDF /* STCASRStreamNetworkingManager.m */,
+				35D342E9D1DA35B24D781353CE0593B3 /* STCASRURLManager.h */,
+				160AED461DE987232FFD4034FFBCE2EA /* STCASRURLManager.m */,
+				AFE1710BE7B29EBDC8AAA2ED35EBB64B /* STCASVSKit.h */,
+				E85EBDB21C1303FE0E81C7EBD911D54C /* STCASVSKitImplementation.h */,
+				745664C4F2546F72D41E15C4129B7E75 /* STCASVSKitImplementation.m */,
+				F364440113A0F18F7A15440303FA0B14 /* STCASVSNetworkingManager.h */,
+				A920D20323ADA018BF8AC75F60E6BB81 /* STCASVSNetworkingManager.m */,
+				D8927D7492BABF48191E59243FA71ED5 /* STCASVSpoofer.h */,
+				9EC15BB1DC1DFA0A56442C96CEB366C1 /* STCASVSpoofer.m */,
+				82111FA585E7AB1FA1429963AC7964CA /* STCASVSpoofing.h */,
+				974086D577DD695D61CDB91AC745C8CB /* STCASVSURLManager.h */,
+				96EDAC25004D90B21B004E0CB3F02FBD /* STCASVSURLManager.m */,
+				447AD2E06D97C1B2FD87BDFB7A8FA26E /* STCAudioPlayer.h */,
+				6136B8F5C665FBFD525DAB23DAC92279 /* STCAudioPlayer.m */,
+				26DCD95B8F8835A0BD822DA0B3B7A01D /* STCAuthorizationData.h */,
+				B272495030231C7EC36244C3C8D123C9 /* STCDiarizating.h */,
+				19080F0F89884C847F391B55B75E9608 /* STCDiarizationKit.h */,
+				E6BBE748811A241B01344E9222EF4B2F /* STCDiarizationKitImplementation.h */,
+				C6FF89B45F881F3609B5A67D56ECE3C2 /* STCDiarizationKitImplementation.m */,
+				F77F412E147AFCB88F2011F4F845EEBE /* STCDiarizator.h */,
+				4A251FC4B22C8EF3BB88213C74C69EE9 /* STCDiarizator.m */,
+				C9A9E62A9EA385F3D82A69234D5D3EA2 /* STCDRZNetworkingManager.h */,
+				2179C62331F2F7F62F60F3944BF2CD5D /* STCDRZNetworkingManager.m */,
+				EF161DC23058D1C843C318B555125D91 /* STCDRZURLManager.h */,
+				15264F90C5225395FB5A44BD4B7E4F32 /* STCDRZURLManager.m */,
+				334F01B4F2F3DAEBC82F32CD735F5C47 /* STCError.h */,
+				D60C1FA4D5A73CD3719DBF02DC492793 /* STCError.m */,
+				F81CFB8BEB860F74F5E1A80199421711 /* STCErrorCode.h */,
+				AB49DCF8D0C9186E1D8C6B7AD25D4158 /* STCNetworkingManager.h */,
+				3CC94613C717122E1D1EB27D5574B8D8 /* STCNetworkingManager.m */,
+				B44F759A9565D226629C2BB0F3AC1ABF /* STCNetworkingManager+Error.h */,
+				48811E9477890405D1C7C059E6725AC7 /* STCNetworkingManager+Error.m */,
+				3F205C0BB92D9403225777743BD29608 /* STCNetworkingManager+Requests.h */,
+				0248D75BCBB5E3E356A67BD37795DEDC /* STCNetworkingManager+Requests.m */,
+				CCB542D603398723D8F5BA1781C3C87C /* STCRecognizeKit.h */,
+				556020262B29A6C466C35A1B106DF09A /* STCRecognizeKitImplementation.h */,
+				6FB63CB902E42765EE9B3E7B3717C10A /* STCRecognizeKitImplementation.m */,
+				1DF579867F9E8792DE206C669F29404C /* STCRecognizer.h */,
+				22D7AAF016ADF4605C48B555D9DBE50A /* STCRecognizer.m */,
+				5037850E17EDE49BCC1F524D3F2D0387 /* STCRecognizing.h */,
+				E28AF34C1672014039CA46CE0EDC2B82 /* STCSessionURLManager.h */,
+				5201F6C34DB49E92ED4C3804B4BD1311 /* STCSessionURLManager.m */,
+				02D1EAE30FADCD7465B946F2A6BB88BF /* STCSpeechKit.h */,
+				BF95CDA2360549E43853B890C005275D /* STCSpeechKit.m */,
+				0699E6BFA3E5EAC7965AE8552A779613 /* STCStreamRecognizer.h */,
+				64BB8731378156B3591BC7DC0A1F2928 /* STCStreamRecognizer.m */,
+				8A5A9C6B4BC068A1914A5CC80FCDCFF0 /* STCStreamRecognizing.h */,
+				A5A2C5BB5C55BFCEEF2EA299681DFDB4 /* STCStreamSynthesizer.h */,
+				24B5BAC84A888C66DF2AD816579E1E4C /* STCStreamSynthesizer.m */,
+				B0C18E14966EE600B0A21305CB407571 /* STCStreamSynthesizing.h */,
+				DEEC4912FA04C4E0D4FB0A37E2268EC9 /* STCSynthesizeKit.h */,
+				ADEB998F25E9E3D6027ACBFD6F7E08BD /* STCSynthesizeKitImplementation.h */,
+				63A152B05D447E879D5020B37BBE8FCC /* STCSynthesizeKitImplementation.m */,
+				0DA3946349722F5CDAA2FA6E2225ACBD /* STCSynthesizer.h */,
+				4FC8E22F2AFFB6F6E1D7EB4EC1EDFD42 /* STCSynthesizer.m */,
+				8BB781AC904081C9FD14D6FBC2A48890 /* STCSynthesizing.h */,
+				C7FF24C4EDA8ED5447B95D51CDE6A8A6 /* STCTTSLanguageNetworkingManager.h */,
+				446651991C22D22E688C23DB6269C8F3 /* STCTTSLanguageNetworkingManager.m */,
+				ECB3B02DCB88E989BB59C31EB2AF5504 /* STCTTSStreamNetworkingManager.h */,
+				1D0B2D67FBC3FEA36544331CAF46A290 /* STCTTSStreamNetworkingManager.m */,
+				62E8F85CFD3092D8C97928566C1D3A51 /* STCTTSSynthesizeNetworkingManager.h */,
+				7FF4AF09B5EA5EDABDE91B914BBCB3D0 /* STCTTSSynthesizeNetworkingManager.m */,
+				BB110A5A5ACB36832B79CA5699AFC8C3 /* STCTTSURLManager.h */,
+				F6A4874240B520866A5C6F8D32496209 /* STCTTSURLManager.m */,
+				647B8FAE4D3F8D2651FE56907F160537 /* STCTTSVoiceNetworkingManager.h */,
+				736B6BA1E6751999B45DA4659015BA0A /* STCTTSVoiceNetworkingManager.m */,
+				18080127A16B4C0BD1EB13FFE7F2E7FE /* STCWebSocket.h */,
+				FDE15F36D74BD71AE6F7428182B08DE1 /* STCWebSocket.m */,
+				64CE04C385D7D1AD0A1CA6B960C8E76F /* Support Files */,
+			);
+			path = SpeechproSpeechKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		770E699AD584040524D09A8850A3C6B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8DC6B5C76C460C1D4E44B275706478 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D44CBC74DD08F96751302039B41F709 /* NSObject+JSON.h in Headers */,
+				1001D57B592CB74EB41129E73D9E3686 /* NSString+Language.h in Headers */,
+				9C609EC5344194FBBF53A2DFC88F2089 /* NSURLResponse+Status.h in Headers */,
+				A265DFEE980ED1098F1FA500CA0EE770 /* OPCSAudioQueueRecorder.h in Headers */,
+				99057781DCF4955EDAC77A7524324CE7 /* OPCSCaptureVoice2BufferManager.h in Headers */,
+				E073A1426F44B0B13B011A2B63861E10 /* STCASRPackageListNetworkingManager.h in Headers */,
+				46EF6BD4358FC4762AF1518A92CED50B /* STCASRRecognizeNetworkingManager.h in Headers */,
+				D8D6E26939D834EB05197738D92C744D /* STCASRStreamNetworkingManager.h in Headers */,
+				3D4704DD148C66F2A00D84547DE6E879 /* STCASRURLManager.h in Headers */,
+				0EC91D0579F5C5DA4161FC07CDDC7738 /* STCASVSKit.h in Headers */,
+				5BB01DD8F56C04AECE09E3D3AD9A472E /* STCASVSKitImplementation.h in Headers */,
+				61591544E0F607837B36321EC2205FCA /* STCASVSNetworkingManager.h in Headers */,
+				336AC7F79DF3D893EB8913BAE2B82B23 /* STCASVSpoofer.h in Headers */,
+				6C6F9D1A01F6F11CBEA6FC3F9EFC7E6C /* STCASVSpoofing.h in Headers */,
+				14ACE181B18D03CBB0D98212E0707544 /* STCASVSURLManager.h in Headers */,
+				18458C8C14134FC25770A6D805229EFB /* STCAudioPlayer.h in Headers */,
+				CBFFC7A4B3BFEA68BAD93E57A76542D2 /* STCAuthorizationData.h in Headers */,
+				38D3F70565C66F0510FB663AD25D4CE9 /* STCDiarizating.h in Headers */,
+				E42CC281B3029FA64EB8CF278FA187EE /* STCDiarizationKit.h in Headers */,
+				AFE73C48E47D14C91235B3E5C7FE394E /* STCDiarizationKitImplementation.h in Headers */,
+				045739B214FDCDFEB5F8EBD77E06F220 /* STCDiarizator.h in Headers */,
+				3EAC5E648237F076D02888A7941DF41B /* STCDRZNetworkingManager.h in Headers */,
+				C5D0E0C291ACE3518BB3FE094DC21590 /* STCDRZURLManager.h in Headers */,
+				14A104200A12F47D579E91E412FC4348 /* STCError.h in Headers */,
+				A4C6D13FE0D6CCE82E5A99DE3500CAC4 /* STCErrorCode.h in Headers */,
+				5F2EB00BFF8511889C173C59AD99A3B1 /* STCNetworkingManager+Error.h in Headers */,
+				8A74BE7CA07BDB516421ABE1F7FFF6DC /* STCNetworkingManager+Requests.h in Headers */,
+				B90B87EB3FE474FC571A0041E2E6305B /* STCNetworkingManager.h in Headers */,
+				4292ED27ED80B3713BB1BFEFE3B92C35 /* STCRecognizeKit.h in Headers */,
+				4EDF107E978A3BCEFAE3792A53A06DAD /* STCRecognizeKitImplementation.h in Headers */,
+				E9647826318D4FCDEE1E3A9AC3F093F3 /* STCRecognizer.h in Headers */,
+				065673B577DAE2ACCDBAF3B4A56ADE75 /* STCRecognizing.h in Headers */,
+				BF432CB7D6C239EEB32A6CCD541ABAE9 /* STCSessionURLManager.h in Headers */,
+				39DB6466836DFA365CB6B71AB5F5C267 /* STCSpeechKit.h in Headers */,
+				881D0ACCC12125C2090C5533D6025233 /* STCStreamRecognizer.h in Headers */,
+				B13E6FC222860C95904C70214C9A1E50 /* STCStreamRecognizing.h in Headers */,
+				615BA6B2F85CC31D5CBA8ED8915BF1DC /* STCStreamSynthesizer.h in Headers */,
+				4D35166F9B167BB068868536E9A89D42 /* STCStreamSynthesizing.h in Headers */,
+				4A525984255DC17D580F85666F72B458 /* STCSynthesizeKit.h in Headers */,
+				78FFADF8E96F2736A5459281E06824D7 /* STCSynthesizeKitImplementation.h in Headers */,
+				BC5E3ECA7A57AF6A4F5002DF0DF962DB /* STCSynthesizer.h in Headers */,
+				A285BD0DD2AB803CE086B1F93E4A8A79 /* STCSynthesizing.h in Headers */,
+				324414091A7384A62FDB8AD3BF292AE5 /* STCTTSLanguageNetworkingManager.h in Headers */,
+				7E43B83FB85E0ABB3114E04A04D88B87 /* STCTTSStreamNetworkingManager.h in Headers */,
+				76F06EEF186ADE454F32D44FA43C94D0 /* STCTTSSynthesizeNetworkingManager.h in Headers */,
+				EC0483F9189885261E016C4973175E1B /* STCTTSURLManager.h in Headers */,
+				798F48BC72ECB129773A6AFCDE397B1C /* STCTTSVoiceNetworkingManager.h in Headers */,
+				6CE4BC072B35D70B31B53BB604D917A5 /* STCWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40119C43795973B229DB28B0EE7F2EF0 /* Pods-STCSpeechKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C098CA877E42785531C4A888F8A2617 /* Build configuration list for PBXNativeTarget "Pods-STCSpeechKitDemo" */;
+			buildPhases = (
+				770E699AD584040524D09A8850A3C6B3 /* Headers */,
+				544AC99878C717A725361E35944897C6 /* Sources */,
+				E98DC3E3417405733E7115FEC40BB421 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71676FBEB7417638CC9CFCC8A567C196 /* PBXTargetDependency */,
+			);
+			name = "Pods-STCSpeechKitDemo";
+			productName = "Pods-STCSpeechKitDemo";
+			productReference = AFABA7EC629E5F5F06C8E6DC04EE1EF2 /* libPods-STCSpeechKitDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7BBD7ACC7C7F765CBCE93D2F1F5ABA1 /* SpeechproSpeechKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A0341E3B7375EE11D4638E72F948EA /* Build configuration list for PBXNativeTarget "SpeechproSpeechKit" */;
+			buildPhases = (
+				EA8DC6B5C76C460C1D4E44B275706478 /* Headers */,
+				E9E186019C46F2FF13E45FB22C830210 /* Sources */,
+				5AAFB11328BA98D9233C9B2BFF984BED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechproSpeechKit;
+			productName = SpeechproSpeechKit;
+			productReference = B32C814E18F2687C4DA99E345B74F2A6 /* libSpeechproSpeechKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AE230251134092763D4BE44F95EF82C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40119C43795973B229DB28B0EE7F2EF0 /* Pods-STCSpeechKitDemo */,
+				A7BBD7ACC7C7F765CBCE93D2F1F5ABA1 /* SpeechproSpeechKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		544AC99878C717A725361E35944897C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C06E942A99CB50B45ABA97B5789B13E /* Pods-STCSpeechKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E186019C46F2FF13E45FB22C830210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D9C9E2AD06674C8857DB0C19F76E0A /* NSObject+JSON.m in Sources */,
+				C4597B4656787D709445D8C8A16A7EB5 /* NSString+Language.m in Sources */,
+				0E57FF1B8AF77431434DF8E09634F8C7 /* NSURLResponse+Status.m in Sources */,
+				40066ED1AC660D3D08C7950E391A4CB4 /* OPCSAudioQueueRecorder.c in Sources */,
+				55211B5FBF630635854DFDF874FBCF9F /* OPCSCaptureVoice2BufferManager.m in Sources */,
+				EDC42617ECC5AAEC1AC80E0FEC61F88A /* SpeechproSpeechKit-dummy.m in Sources */,
+				08E56AFDF0B69D64DCB858DED1913AAD /* STCASRPackageListNetworkingManager.m in Sources */,
+				EE9C7903F4433E240ADF0CB90334015E /* STCASRRecognizeNetworkingManager.m in Sources */,
+				B95345206762517A61BEF1945EFBBD11 /* STCASRStreamNetworkingManager.m in Sources */,
+				7C1F24062E24E5E1EED7F722CF59E3B9 /* STCASRURLManager.m in Sources */,
+				C16FEBA32C253C030CC35E482C6B9AD2 /* STCASVSKitImplementation.m in Sources */,
+				FDB7FD70239C2E777030DE6A90800874 /* STCASVSNetworkingManager.m in Sources */,
+				C3E5F2BBAF7AE481C85BC59EE207B467 /* STCASVSpoofer.m in Sources */,
+				9F4673C2E952040E7C86AF9D2DDE82DA /* STCASVSURLManager.m in Sources */,
+				CF3ECA4D56A16B45B4A018E1F00DD3EA /* STCAudioPlayer.m in Sources */,
+				1AD72FF313FD29C29814625FDCCB32A9 /* STCDiarizationKitImplementation.m in Sources */,
+				90310D01C69E1BC779FEFAB121AE8078 /* STCDiarizator.m in Sources */,
+				E14D40503FCF73F46E8310C76B0B986C /* STCDRZNetworkingManager.m in Sources */,
+				1609DDB8B1615A64831326679DAE3B71 /* STCDRZURLManager.m in Sources */,
+				234315AC206B018A26942C2B663C7144 /* STCError.m in Sources */,
+				9ABBF13E2B40725899A815BCC90C97B0 /* STCNetworkingManager+Error.m in Sources */,
+				B7C0DAF9BBE2D944E771BFDD2914788B /* STCNetworkingManager+Requests.m in Sources */,
+				297F3DC8E20D4CF1188C0123C9F7F0EF /* STCNetworkingManager.m in Sources */,
+				B60A158CF3A69652B0E8909ED8291A13 /* STCRecognizeKitImplementation.m in Sources */,
+				07A059918FF713CA3EB8C6984E3137E9 /* STCRecognizer.m in Sources */,
+				FD89E3516E84C61301CB209A6DC31B9C /* STCSessionURLManager.m in Sources */,
+				E1D2D3BBF0083CD14597BAC2C7393862 /* STCSpeechKit.m in Sources */,
+				DD5BDEF2788F22050E78CF188DA685FA /* STCStreamRecognizer.m in Sources */,
+				E6B106E306F322F7C599374FBBB85E4C /* STCStreamSynthesizer.m in Sources */,
+				4044FAA998344E55AE6FFE213B5E735D /* STCSynthesizeKitImplementation.m in Sources */,
+				94F1C5736409EEF56E8D0822D0958A40 /* STCSynthesizer.m in Sources */,
+				7F40BEE36B0D7270A68B76FB0AC9ED56 /* STCTTSLanguageNetworkingManager.m in Sources */,
+				7CA9324E41200FE82C0BAF1D86B10DE7 /* STCTTSStreamNetworkingManager.m in Sources */,
+				5D67357214E9BB0C178D88B89D509139 /* STCTTSSynthesizeNetworkingManager.m in Sources */,
+				5CC32427037E18D9D61AA8BF6BE1861C /* STCTTSURLManager.m in Sources */,
+				63F4C7B2C5D0A48E2DC3CD474AFC6504 /* STCTTSVoiceNetworkingManager.m in Sources */,
+				90033ED94B7BED2B3B0E80A3B1F2F80D /* STCWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71676FBEB7417638CC9CFCC8A567C196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpeechproSpeechKit;
+			target = A7BBD7ACC7C7F765CBCE93D2F1F5ABA1 /* SpeechproSpeechKit */;
+			targetProxy = F9FCEC8FD5CECDDD78704DF3031B2ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F1BDD66FEB1E53345F57839F0B061A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10948613182F3CA22CF47B99B924374 /* SpeechproSpeechKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SpeechproSpeechKit/SpeechproSpeechKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SpeechproSpeechKit;
+				PRODUCT_NAME = SpeechproSpeechKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499BABEF4A8CC6D8514FA6930F3E15D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2154FDDE7676D98E05D9A1C2EECBE706 /* SpeechproSpeechKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SpeechproSpeechKit/SpeechproSpeechKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SpeechproSpeechKit;
+				PRODUCT_NAME = SpeechproSpeechKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52255FF80705CBE572AB272C4DD72F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373E08C4BAE0D9476CCF649BA703B605 /* Pods-STCSpeechKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D67C0F9ED739CB907980A135749A7A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B6D3845FF7A21F265492E117743B72 /* Pods-STCSpeechKitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C098CA877E42785531C4A888F8A2617 /* Build configuration list for PBXNativeTarget "Pods-STCSpeechKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52255FF80705CBE572AB272C4DD72F9C /* Debug */,
+				D67C0F9ED739CB907980A135749A7A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A0341E3B7375EE11D4638E72F948EA /* Build configuration list for PBXNativeTarget "SpeechproSpeechKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499BABEF4A8CC6D8514FA6930F3E15D3 /* Debug */,
+				0F1BDD66FEB1E53345F57839F0B061A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

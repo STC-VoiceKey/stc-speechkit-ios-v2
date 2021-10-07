@@ -1,0 +1,9 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'STCSpeechKitDemo' do
+  
+pod 'SpeechproSpeechKit', :git => 'https://github.com/STC-VoiceKey/stc-speechkit-ios.git'
+
+
+end

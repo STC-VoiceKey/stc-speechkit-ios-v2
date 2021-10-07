@@ -1,0 +1,126 @@
+\hypertarget{interface_s_t_c_a_s_r_u_r_l_manager}{}\section{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager Class Reference}
+\label{interface_s_t_c_a_s_r_u_r_l_manager}\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+
+
+{\ttfamily \#import $<$S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager.\+h$>$}
+
+Inheritance diagram for S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_s_t_c_a_s_r_u_r_l_manager}
+\end{center}
+\end{figure}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_a2954022e950e16a4929952965fa43ec1}{asr\+Api\+Url}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_ad7ab9c66ce37329efbf14c7ac96056d0}{asr\+Start\+Session}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_ababc0e137a24e84452de092b2ad1b0ac}{asr\+Close\+Session}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_a69b77a4c280941f683efeda91822010f}{asr\+Available\+Packages}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_ad122fbe5414da177778397e6bac2f68b}{asr\+Load\+Package\+:}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_ac17d64cd68e803e6a0dacb8f158e97ce}{asr\+Unload\+Package\+:}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_a7a3686701a8f1274bb1d4d2a83be7551}{asr\+Recognize}
+\item 
+(N\+S\+String $\ast$) + \hyperlink{interface_s_t_c_a_s_r_u_r_l_manager_a749459801c620146beef96a7a0903b94}{asr\+Recognize\+Stream}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides the transport service urls for T\+TS A\+PI. A\+PI help \begin{DoxySeeAlso}{See also}
+\href{https://vkplatform.speechpro.com/vkasr/help}{\tt https\+://vkplatform.\+speechpro.\+com/vkasr/help} 
+\end{DoxySeeAlso}
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_a2954022e950e16a4929952965fa43ec1}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_a2954022e950e16a4929952965fa43ec1} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Api\+Url@{asr\+Api\+Url}}
+\index{asr\+Api\+Url@{asr\+Api\+Url}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Api\+Url()}{asrApiUrl()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Api\+Url \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The main A\+SR A\+PI url 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vkasr/rest}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_a69b77a4c280941f683efeda91822010f}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_a69b77a4c280941f683efeda91822010f} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Available\+Packages@{asr\+Available\+Packages}}
+\index{asr\+Available\+Packages@{asr\+Available\+Packages}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Available\+Packages()}{asrAvailablePackages()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Available\+Packages \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The A\+SR A\+PI url for the obtaining a list of supported packages. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/packages/available}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_ababc0e137a24e84452de092b2ad1b0ac}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_ababc0e137a24e84452de092b2ad1b0ac} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Close\+Session@{asr\+Close\+Session}}
+\index{asr\+Close\+Session@{asr\+Close\+Session}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Close\+Session()}{asrCloseSession()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Close\+Session \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The A\+SR A\+PI url for the closing server session. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vkasr/rest/session}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_ad122fbe5414da177778397e6bac2f68b}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_ad122fbe5414da177778397e6bac2f68b} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Load\+Package\+:@{asr\+Load\+Package\+:}}
+\index{asr\+Load\+Package\+:@{asr\+Load\+Package\+:}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Load\+Package\+:()}{asrLoadPackage:()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Load\+Package\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{package }\end{DoxyParamCaption}}
+
+The A\+SR A\+PI url for the load specific package. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/packages/\{packageId\}/load}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_a7a3686701a8f1274bb1d4d2a83be7551}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_a7a3686701a8f1274bb1d4d2a83be7551} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Recognize@{asr\+Recognize}}
+\index{asr\+Recognize@{asr\+Recognize}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Recognize()}{asrRecognize()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Recognize \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The A\+SR A\+PI url for the recognizion. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/recognize}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_a749459801c620146beef96a7a0903b94}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_a749459801c620146beef96a7a0903b94} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Recognize\+Stream@{asr\+Recognize\+Stream}}
+\index{asr\+Recognize\+Stream@{asr\+Recognize\+Stream}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Recognize\+Stream()}{asrRecognizeStream()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Recognize\+Stream \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The A\+SR A\+PI url for starting stream transaction. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/recognize/session}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_ad7ab9c66ce37329efbf14c7ac96056d0}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_ad7ab9c66ce37329efbf14c7ac96056d0} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Start\+Session@{asr\+Start\+Session}}
+\index{asr\+Start\+Session@{asr\+Start\+Session}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Start\+Session()}{asrStartSession()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Start\+Session \begin{DoxyParamCaption}{ }\end{DoxyParamCaption}}
+
+The A\+SR A\+PI url for the starting server session. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vkasr/rest/session}
+\end{DoxyCode}
+ \hypertarget{interface_s_t_c_a_s_r_u_r_l_manager_ac17d64cd68e803e6a0dacb8f158e97ce}{}\label{interface_s_t_c_a_s_r_u_r_l_manager_ac17d64cd68e803e6a0dacb8f158e97ce} 
+\index{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}!asr\+Unload\+Package\+:@{asr\+Unload\+Package\+:}}
+\index{asr\+Unload\+Package\+:@{asr\+Unload\+Package\+:}!S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager@{S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager}}
+\subsubsection{\texorpdfstring{asr\+Unload\+Package\+:()}{asrUnloadPackage:()}}
+{\footnotesize\ttfamily + (N\+S\+String $\ast$) asr\+Unload\+Package\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{package }\end{DoxyParamCaption}}
+
+The A\+SR A\+PI url for the unload specific package. 
+\begin{DoxyCode}
+https:\textcolor{comment}{//vkplatform.speechpro.com/vktts/rest/v1/packages/\{packageId\}/unload}
+\end{DoxyCode}
+ 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Recognize\+Kit/\+Networking/\+Base/S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager.\+h\item 
+Recognize\+Kit/\+Networking/\+Base/S\+T\+C\+A\+S\+R\+U\+R\+L\+Manager.\+m\end{DoxyCompactItemize}

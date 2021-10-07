@@ -1,0 +1,101 @@
+\hypertarget{protocol_s_t_c_recognize_kit_01-p}{}\section{$<$S\+T\+C\+Recognize\+Kit $>$ Protocol Reference}
+\label{protocol_s_t_c_recognize_kit_01-p}\index{$<$\+S\+T\+C\+Recognize\+Kit $>$@{$<$\+S\+T\+C\+Recognize\+Kit $>$}}
+Inheritance diagram for $<$S\+T\+C\+Recognize\+Kit $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{protocol_s_t_c_recognize_kit_01-p}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_recognize_kit_01-p_a045faae471fb24ae41f0b40d24d41914}{obtain\+Packages\+With\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_recognize_kit_01-p_a6b2b5a9ecc1f659c4d7633d113f00d8a}{recognize\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_recognize_kit_01-p_a31162bfe362dcd4b961caa831a4dbbf3}{recognize\+:with\+Package\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_recognize_kit_01-p_a58204f2dc5b86abc83745d837013a1eb}{stream\+With\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_recognize_kit_01-p_a80d49abc983107365e536a1bda519a95}{stream\+With\+Package\+:with\+Completion\+Handler\+:}
+\item 
+(void) -\/ \hyperlink{protocol_s_t_c_recognize_kit_01-p_af0ba32b0cf088bffe33b030c4ae5f572}{close\+Stream\+With\+Completion\+Handler\+:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Method Documentation}
+\hypertarget{protocol_s_t_c_recognize_kit_01-p_af0ba32b0cf088bffe33b030c4ae5f572}{}\label{protocol_s_t_c_recognize_kit_01-p_af0ba32b0cf088bffe33b030c4ae5f572} 
+\index{S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}!close\+Stream\+With\+Completion\+Handler\+:@{close\+Stream\+With\+Completion\+Handler\+:}}
+\index{close\+Stream\+With\+Completion\+Handler\+:@{close\+Stream\+With\+Completion\+Handler\+:}!S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{close\+Stream\+With\+Completion\+Handler\+:()}{closeStreamWithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Recognize\+Kit) close\+Stream\+With\+Completion\+Handler\+: \begin{DoxyParamCaption}\item[{(Recognize\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Closes the socket 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_recognize_kit_01-p_a045faae471fb24ae41f0b40d24d41914}{}\label{protocol_s_t_c_recognize_kit_01-p_a045faae471fb24ae41f0b40d24d41914} 
+\index{S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}!obtain\+Packages\+With\+Completion\+Handler\+:@{obtain\+Packages\+With\+Completion\+Handler\+:}}
+\index{obtain\+Packages\+With\+Completion\+Handler\+:@{obtain\+Packages\+With\+Completion\+Handler\+:}!S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{obtain\+Packages\+With\+Completion\+Handler\+:()}{obtainPackagesWithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Recognize\+Kit) obtain\+Packages\+With\+Completion\+Handler\+: \begin{DoxyParamCaption}\item[{(Packages\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives list of preset recognition packages 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_recognize_kit_01-p_a6b2b5a9ecc1f659c4d7633d113f00d8a}{}\label{protocol_s_t_c_recognize_kit_01-p_a6b2b5a9ecc1f659c4d7633d113f00d8a} 
+\index{S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}!recognize\+:with\+Completion\+Handler\+:@{recognize\+:with\+Completion\+Handler\+:}}
+\index{recognize\+:with\+Completion\+Handler\+:@{recognize\+:with\+Completion\+Handler\+:}!S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{recognize\+:with\+Completion\+Handler\+:()}{recognize:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Recognize\+Kit) recognize\+: \begin{DoxyParamCaption}\item[{(N\+S\+Data $\ast$)}]{voice }\item[{withCompletionHandler:(Recognize\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the recognition result 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_recognize_kit_01-p_a31162bfe362dcd4b961caa831a4dbbf3}{}\label{protocol_s_t_c_recognize_kit_01-p_a31162bfe362dcd4b961caa831a4dbbf3} 
+\index{S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}!recognize\+:with\+Package\+:with\+Completion\+Handler\+:@{recognize\+:with\+Package\+:with\+Completion\+Handler\+:}}
+\index{recognize\+:with\+Package\+:with\+Completion\+Handler\+:@{recognize\+:with\+Package\+:with\+Completion\+Handler\+:}!S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{recognize\+:with\+Package\+:with\+Completion\+Handler\+:()}{recognize:withPackage:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Recognize\+Kit) recognize\+: \begin{DoxyParamCaption}\item[{(N\+S\+Data $\ast$)}]{voice }\item[{withPackage:(N\+S\+String $\ast$)}]{package }\item[{withCompletionHandler:(Recognize\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the recognition result 
+\begin{DoxyParams}{Parameters}
+{\em voice} & The sound for recognition \\
+\hline
+{\em package} & The package for recognition \\
+\hline
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_recognize_kit_01-p_a58204f2dc5b86abc83745d837013a1eb}{}\label{protocol_s_t_c_recognize_kit_01-p_a58204f2dc5b86abc83745d837013a1eb} 
+\index{S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}!stream\+With\+Completion\+Handler\+:@{stream\+With\+Completion\+Handler\+:}}
+\index{stream\+With\+Completion\+Handler\+:@{stream\+With\+Completion\+Handler\+:}!S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{stream\+With\+Completion\+Handler\+:()}{streamWithCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Recognize\+Kit) stream\+With\+Completion\+Handler\+: \begin{DoxyParamCaption}\item[{(Recognize\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the stream url 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_s_t_c_recognize_kit_01-p_a80d49abc983107365e536a1bda519a95}{}\label{protocol_s_t_c_recognize_kit_01-p_a80d49abc983107365e536a1bda519a95} 
+\index{S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}!stream\+With\+Package\+:with\+Completion\+Handler\+:@{stream\+With\+Package\+:with\+Completion\+Handler\+:}}
+\index{stream\+With\+Package\+:with\+Completion\+Handler\+:@{stream\+With\+Package\+:with\+Completion\+Handler\+:}!S\+T\+C\+Recognize\+Kit -\/p@{S\+T\+C\+Recognize\+Kit -\/p}}
+\subsubsection{\texorpdfstring{stream\+With\+Package\+:with\+Completion\+Handler\+:()}{streamWithPackage:withCompletionHandler:()}}
+{\footnotesize\ttfamily -\/ (void S\+T\+C\+Recognize\+Kit) stream\+With\+Package\+: \begin{DoxyParamCaption}\item[{(N\+S\+String $\ast$)}]{package }\item[{withCompletionHandler:(Recognize\+Completion\+Handler)}]{completion\+Handler }\end{DoxyParamCaption}}
+
+Receives the stream url 
+\begin{DoxyParams}{Parameters}
+{\em completion\+Handler} & The response block called when the result is received \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this protocol was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+S\+T\+C\+Recognize\+Kit.\+h\end{DoxyCompactItemize}
