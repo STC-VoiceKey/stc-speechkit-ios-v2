@@ -9,7 +9,7 @@ STCSpeechKitDemo supports multiple methods for installing the library in a proje
 ### Installation with CocoaPods
 To integrate STCSpeechKit into your Xcode project using CocoaPods, specify it in your Podfile:
 
-pod 'SpeechproSpeechKit', :git => 'https://github.com/STC-VoiceKey/stc-speechkit-ios.git'
+pod 'SpeechproSpeechKit', :git => 'https://github.com/STC-VoiceKey/stc-speechkit-ios-v2.git'
 
 
 ##Before you get started
